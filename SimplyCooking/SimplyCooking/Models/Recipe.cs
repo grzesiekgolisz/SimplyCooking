@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SimplyCooking.Models
 {
-    public class Recipes
+    public class Recipe
     {
         public int RecipeID { get; set; }
         public string UserID { get; set; }
@@ -15,8 +15,10 @@ namespace SimplyCooking.Models
         public int TypeofmealsID { get; set; }
 
         public virtual ApplicationUser User { get; set; }
-        public virtual Typeofdishes Typeofdishes { get; set; }
-        public virtual Typeofmeals Typeofmeals { get; set; }
-        public virtual List<Comments> Comments { get; set; }
+        public virtual Typeofdish Typeofdish { get; set; }
+        public virtual Typeofmeal Typeofmeal { get; set; }
+        public virtual List<Comment> Comment { get; set; }
+        public virtual List<Equipment> Equipment { get; set; }
+        public virtual List<Component> Component { get; set; }
     }
 }

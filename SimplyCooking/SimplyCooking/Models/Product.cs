@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SimplyCooking.Models
 {
-    public class Products
+    public class Product
     {
         public int ProductID { get; set; }
         public string Name { get; set; }
@@ -13,6 +13,6 @@ namespace SimplyCooking.Models
         public int UnitID { get; set; }
         public int Value { get; set; }
 
-        public virtual List<Components> Components { get; set; }
+        public virtual List<Component> Components { get; set; }
     }
 }

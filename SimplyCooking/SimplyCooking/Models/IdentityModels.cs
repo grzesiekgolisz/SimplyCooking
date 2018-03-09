@@ -18,8 +18,8 @@ namespace SimplyCooking.Models
         //    return userIdentity;
         //}
       
-        public virtual List<Recipes> Recipes { get; set; }
-        public virtual List<Comments> Comments { get; set; }
+        public virtual List<Recipe> Recipes { get; set; }
+        public virtual List<Comment> Comments { get; set; }
 
     }
 
@@ -29,6 +29,15 @@ namespace SimplyCooking.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+
+        public DbSet<Recipe> Recipe { get; set; }
+        public DbSet<Comment> Comment { get; set; }
+        public DbSet<Component> Component { get; set; }
+        public DbSet<Equipment> Equipment { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Typeofdish> Typeofdish { get; set; }
+        public DbSet<Typeofmeal> Typeofmeal { get; set; }
+
 
         public static ApplicationDbContext Create()
         {

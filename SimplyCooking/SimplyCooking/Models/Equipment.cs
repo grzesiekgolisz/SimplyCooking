@@ -5,11 +5,11 @@ using System.Web;
 
 namespace SimplyCooking.Models
 {
-    public class Equipments
+    public class Equipment
     {
         public int EquipmentID { get; set; }
         public string Equipmentname { get; set; }
 
-        public virtual List<Recipes> Recipes { get; set; }
+        public virtual List<Recipe> Recipes { get; set; }
     }
 }
