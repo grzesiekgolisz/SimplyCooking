@@ -315,7 +315,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: black;
 }
 
 input,
@@ -4933,8 +4933,8 @@ a.list-group-item.active > .badge,
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
+  color: greenyellow;
+  background-color: black;
 }
 
 .jumbotron h1 {
@@ -4976,6 +4976,21 @@ a.list-group-item.active > .badge,
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
+}
+
+
+.listmoje{
+
+    height:auto;
+    background-color:yellow;
+    border-width:10px;
+    border-color:orangered;
+    font-size:18px;
+    color:forestgreen;
+    width:200px;
+    
+
+
 }
 
 .thumbnail > img {
