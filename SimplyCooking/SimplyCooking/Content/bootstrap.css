@@ -323,7 +323,7 @@ button,
 select,
 textarea {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 15px;
   line-height: inherit;
 }
 
@@ -4928,13 +4928,14 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: greenyellow;
-  background-color: black;
+    padding: 1px;
+    margin-bottom: 1px;
+    font-size: 21px;
+    font-weight: 1;
+  
+    line-height: 2.1428571435;
+    color: black;
+    background-color: whitesmoke;
 }
 
 .jumbotron h1 {
@@ -4978,19 +4979,29 @@ a.list-group-item.active > .badge,
           transition: all 0.2s ease-in-out;
 }
 
+.button1 {
+    border: none;
+    background: black;
+    font-size: 24px; 
 
-.listmoje{
+}
 
-    height:auto;
-    background-color:yellow;
-    border-width:10px;
-    border-color:orangered;
-    font-size:18px;
-    color:forestgreen;
-    width:200px;
-    
+.dodaj {
+   padding-top: 20px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   
 
+}
 
+.recipeslist {
+    height: auto;
+    background-color: black;
+    border-width: 10px;
+    border-color: orangered;
+    font-size: 18px;
+    color: white;
+    width: 200px;
 }
 
 .thumbnail > img {
