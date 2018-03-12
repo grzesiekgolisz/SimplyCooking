@@ -15,7 +15,10 @@
 
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
 
-    <input type="button" class="btn btn-info" value="Przepis 1" onclick="location.href='@Url.Action("1" , "Default1" )'" />
+    <a href=@Url.Content("~/recipes/Details/1")>
+        <input type="button" class="btn btn-info" value="Przepis 1" />
+    </a>
+
 
 
 
