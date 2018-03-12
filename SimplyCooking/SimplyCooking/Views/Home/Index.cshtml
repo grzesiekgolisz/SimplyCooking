@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Simply Cooking</h1>
+    <p class="lead">Nasza aplikacja pomoże ci podjąc decyzje co chcesz ugotowac</p>
+   @* <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="dodaj">
+
+
+
+
+    <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
+
+    <a href=@Url.Content("~/recipes/Details/1")>
+        <input type="button" class="btn btn-info" value="Przepis 1" />
+    </a>
+
+
+
+
+
+
+</div>
+
+            <div class="recipeslist">
+
+
+
+                @for (int i = 0; i < 5; i++)
+                {
+                    <p>"Tu będziemy mieli przepisy"</p>
+                    <hr> </hr>
+                }
+                tutaj mozna pobrac jakąś liste
+
+
+            </div>
+
+
+            <div class="row">
+
+                @*<div class="col-md-4">
+                        <h2>Getting started</h2>
+                        <p>
+                           Tutaj jakis opis
+                        </p>
+                        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Get more libraries</h2>
+                        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Web Hosting</h2>
+                        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+                    </div>*@
+</div>
