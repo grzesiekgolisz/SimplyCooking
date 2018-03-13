@@ -13,11 +13,22 @@ namespace SimplyCooking
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+
+            routes.MapRoute(
+                name: "description_track",
+                url:"Recipes/details/{id}",
+            defaults: new { controller = "Recipes", action = "Details", id = UrlParameter.Optional }
+            );
+
+
             routes.MapRoute(
                   name: "Default1",
                   url: "{controller}/{action}/{action2}/{id}",

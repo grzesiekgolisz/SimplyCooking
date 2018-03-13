@@ -16,13 +16,19 @@
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
     @foreach (var item in Model)
     {
-       <br />
-        <a href=@Url.Content("~/recipes/Details/")>
-            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
-        </a>
 
+       var id = @Html.DisplayFor(ModelItem => item.RecipeID);
+       <br />
+        @*<a href=@LinkExtensions.ActionLink Method("htmlhelper","recipe",""details",item.recipeID)>*@
+            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
+       
+
+        <div>
+        <h3>@item.Name</h3>@item.RecipeID<h4>@item.RecipeID.ToString()</h4>>
+</div>
     }
 
+    @Url.Action()
   
 
 
