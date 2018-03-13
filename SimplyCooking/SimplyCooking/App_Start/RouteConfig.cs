@@ -20,11 +20,17 @@ namespace SimplyCooking
             );
             routes.MapRoute(
                   name: "Default1",
-                  url: "{controller}/{action}/{action2}/{id}",
-                  defaults: new { controller = "Home", action = "recipes", action2 = "Details", id = UrlParameter.Optional }
+                  url: "{controller}/{action}/{id}",
+                  defaults: new { controller = "Home", action = "recipes", id = UrlParameter.Optional }
 
             );
-         
+            routes.MapRoute(
+                  name: "Default2",
+                  url: "{controller}/{action}/{id}",
+                  defaults: new { controller = "Home", action = "details", id = UrlParameter.Optional }
+
+            );
+
         }
     }
 }
