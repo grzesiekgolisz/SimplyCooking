@@ -130,25 +130,25 @@ namespace SimplyCooking.Controllers
         }
 
         [HttpPost]
-        public ActionResult Akcja(string Name)
+        public ActionResult Akcja(string nam)
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(string Name)
+        public ActionResult Index(string nam)
         {
-            var name = from RecipeID in db.Recipe
-                       select RecipeID;
+            var n = from Name in db.Recipe
+                       select Name;
             //jeśli coś przesłano, to wyszukaj po tym
-            if (!String.IsNullOrEmpty(Name))
+            if (!String.IsNullOrEmpty(nam))
             {
-                name = from RecipeID in db.Recipe
-                       where RecipeID.Name.Equals(Name)
-                       select RecipeID;
+                n = from Name in db.Recipe
+                       where Name.Name.Equals(nam)
+                       select Name;
             }
 
-            return View(name.ToList());
+            return View(n.ToList());
         }
     }
 }
