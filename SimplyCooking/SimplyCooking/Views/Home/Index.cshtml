@@ -16,17 +16,24 @@
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
     @foreach (var item in Model)
     {
-       <br />
-        <a href=@Url.Content("~/recipes/Details/")>
-            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
+        <br />
+        <a href=@Url.Content("~/recipes/Details/1")>
+            <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />
         </a>
 
     }
 
-  
-
-
     </ div >
+
+
+   
+   
+    <form action="/Recipe/Index" method="post" align="right">
+        <div float:left>Szukaj przepis: </div>
+        <div><input id="Name" name="Name" type="text" value="" /></div>
+        <input type="submit" value="Szukaj" />
+
+    </form>
 
 
 

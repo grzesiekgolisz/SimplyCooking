@@ -128,5 +128,27 @@ namespace SimplyCooking.Controllers
             }
             base.Dispose(disposing);
         }
+
+        [HttpPost]
+        public ActionResult Akcja(string Name)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(string Name)
+        {
+            var name = from RecipeID in db.Recipe
+                       select RecipeID;
+            //jeśli coś przesłano, to wyszukaj po tym
+            if (!String.IsNullOrEmpty(Name))
+            {
+                name = from RecipeID in db.Recipe
+                       where RecipeID.Name.Equals(Name)
+                       select RecipeID;
+            }
+
+            return View(name.ToList());
+        }
     }
 }
