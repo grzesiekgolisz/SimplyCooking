@@ -14,19 +14,35 @@
     @model IEnumerable<SimplyCooking.Models.Recipe>
 
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
+    
     @foreach (var item in Model)
     {
-       <br />
-        <a href=@Url.Content("~/recipes/Details/")>
+        int a= item.RecipeID;
+
+        string poczatek = "~/recipes/Details/";
+        string myString = a.ToString();
+        
+        poczatek = poczatek + myString;
+        <br />
+        <a href=@Url.Content(poczatek)>
             <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
         </a>
 
+        
+
     }
 
-  
 
+    @using (Html.BeginForm())
+    {
+        <div>Szukaj przepis: </div>
+        <div>@Html.TextBox("ModelZnajdz")</div>
+        <input type="submit" value="Szukaj" />
+    }
 
-    </ div >
+    @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
+
+        </ div >*@
 
 
 
