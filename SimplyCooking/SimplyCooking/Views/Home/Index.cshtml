@@ -17,18 +17,15 @@
     @foreach (var item in Model)
     {
         <br />
-        <a href=@Url.Content("~/recipes/Details/1")>
+        <a href=@Url.Content("~/recipes/Details/")>
             <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />
         </a>
 
     }
 
     </ div >
-
-
-   
-   
-    <form action="/Recipe/Index" method="post" align="right">
+ 
+    <form action="/recipes/details" method="post" align="right">
         <div float:left>Szukaj przepis: </div>
         <div><input id="Name" name="nam" type="text" value="" /></div>
         <input type="submit" value="Szukaj" />
