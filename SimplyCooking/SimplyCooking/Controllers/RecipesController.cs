@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using SimplyCooking.Models;
 
+
 namespace SimplyCooking.Controllers
 {
     public class RecipesController : Controller
@@ -127,28 +128,6 @@ namespace SimplyCooking.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
-        }
-
-        [HttpPost]
-        public ActionResult Akcja(string nam)
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Index(string nam)
-        {
-            var n = from Name in db.Recipe
-                       select Name;
-            //jeśli coś przesłano, to wyszukaj po tym
-            if (!String.IsNullOrEmpty(nam))
-            {
-                n = from Name in db.Recipe
-                       where Name.Name.Equals(nam)
-                       select Name;
-            }
-
-            return View(n.ToList());
         }
     }
 }

@@ -2,8 +2,9 @@
     ViewBag.Title = "Home Page";
 }
 
+
 <div class="jumbotron">
-    <h1>Simply Cooking</h1>
+    <h1 style="background-image: url('simply.gif')">Simply Cooking</h1>
     <p class="lead">Nasza aplikacja pomoże ci podjąc decyzje co chcesz ugotowac</p>
    @* <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
@@ -14,26 +15,35 @@
     @model IEnumerable<SimplyCooking.Models.Recipe>
 
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
+    
     @foreach (var item in Model)
     {
+        int a= item.RecipeID;
+
+        string poczatek = "~/recipes/Details/";
+        string myString = a.ToString();
+        
+        poczatek = poczatek + myString;
         <br />
-        <a href=@Url.Content("~/recipes/Details/1")>
-            <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />
+        <a href=@Url.Content(poczatek)>
+            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
         </a>
+
+        
 
     }
 
-    </ div >
 
-
-   
-   
-    <form action="/Recipe/Index" method="post" align="right">
-        <div float:left>Szukaj przepis: </div>
-        <div><input id="Name" name="nam" type="text" value="" /></div>
+    @using (Html.BeginForm())
+    {
+        <div>Szukaj przepis: </div>
+        <div>@Html.TextBox("ModelZnajdz")</div>
         <input type="submit" value="Szukaj" />
+    }
 
-    </form>
+    @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
+
+        </ div >*@
 
 
 
