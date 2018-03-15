@@ -39,16 +39,13 @@ namespace SimplyCooking.Controllers
 
             return View();
         }
-<<<<<<< HEAD
 
-
-=======
         [HttpPost]
 public ActionResult Akcja(string imie)
         {
             return View();
         }
->>>>>>> edb35af9783a0955c50193e8dfa6f65a1e78cc7d
+
 
     }
 }
