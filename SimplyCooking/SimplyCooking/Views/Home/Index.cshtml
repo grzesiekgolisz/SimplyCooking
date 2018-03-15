@@ -14,8 +14,10 @@
     @model IEnumerable<SimplyCooking.Models.Recipe>
 
     <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
+    
     @foreach (var item in Model)
     {
+<<<<<<< HEAD
         var id = @Html.DisplayFor(ModelItem => item.Name);
         <br />
         
@@ -28,10 +30,25 @@
                 @Url.Action("wyswietlanie","Recipes")
 
             <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />*@
+=======
+        int a= item.RecipeID;
+
+        string poczatek = "~/recipes/Details/";
+        string myString = a.ToString();
+        
+        poczatek = poczatek + myString;
+        <br />
+        <a href=@Url.Content(poczatek)>
+            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
+        </a>
+>>>>>>> edb35af9783a0955c50193e8dfa6f65a1e78cc7d
+
+        
 
     }
 
 
+<<<<<<< HEAD
     @Url.Action()
 
 
@@ -42,6 +59,18 @@
         <input type="submit" value="Szukaj" />
 
     </form>
+=======
+    @using (Html.BeginForm())
+    {
+        <div>Szukaj przepis: </div>
+        <div>@Html.TextBox("ModelZnajdz")</div>
+        <input type="submit" value="Szukaj" />
+    }
+
+    @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
+
+        </ div >*@
+>>>>>>> edb35af9783a0955c50193e8dfa6f65a1e78cc7d
 
 
 

@@ -4932,10 +4932,13 @@ a.list-group-item.active > .badge,
     margin-bottom: 1px;
     font-size: 21px;
     font-weight: 1;
-  
     line-height: 2.1428571435;
     color: black;
-    background-color: whitesmoke;
+    selektor
+{
+    background-image: url("https://i.ytimg.com/vi/3smKg8PCupU/maxresdefault.jpg");
+
+ 
 }
 
 .jumbotron h1 {

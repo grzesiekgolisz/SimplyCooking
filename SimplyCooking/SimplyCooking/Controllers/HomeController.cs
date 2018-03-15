@@ -13,6 +13,7 @@ using System.Web;
 using System.Web.Mvc;
 using SimplyCooking.Models;
 
+
 namespace SimplyCooking.Controllers
 {
     public class HomeController : Controller
@@ -38,8 +39,16 @@ namespace SimplyCooking.Controllers
 
             return View();
         }
+<<<<<<< HEAD
 
 
+=======
+        [HttpPost]
+public ActionResult Akcja(string imie)
+        {
+            return View();
+        }
+>>>>>>> edb35af9783a0955c50193e8dfa6f65a1e78cc7d
 
     }
 }
