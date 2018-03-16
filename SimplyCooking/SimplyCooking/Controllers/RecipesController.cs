@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using SimplyCooking.Models;
 
+
 namespace SimplyCooking.Controllers
 {
     public class RecipesController : Controller
@@ -15,14 +16,38 @@ namespace SimplyCooking.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Recipes
-        public ActionResult Index()
+        public ActionResult Index(string searchString)
         {
-            var recipes = db.Recipe.Include(r => r.User);
+            //var recipes = db.Recipe.Include(r => r.User);
+            //return View(recipes.ToList());
+
+            var recipes = from m in db.Recipe
+                          select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                recipes = recipes.Where(s => s.Name.Contains(searchString));
+            }
+
             return View(recipes.ToList());
+
         }
 
-        // GET: Recipes/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Search(string searchString)
+        {
+            var recipes = from m in db.Recipe
+                          select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                recipes = recipes.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(recipes);
+        }
+
+    // GET: Recipes/Details/5
+    public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -129,26 +154,39 @@ namespace SimplyCooking.Controllers
             base.Dispose(disposing);
         }
 
-        [HttpPost]
-        public ActionResult Akcja(string nam)
-        {
-            return View();
-        }
+        //[HttpPost]
+        //public ActionResult Akcja(string nam)
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        public ActionResult Index(string nam)
-        {
-            var n = from Name in db.Recipe
-                       select Name;
-            //jeśli coś przesłano, to wyszukaj po tym
-            if (!String.IsNullOrEmpty(nam))
-            {
-                n = from Name in db.Recipe
-                       where Name.Name.Equals(nam)
-                       select Name;
-            }
+        //[HttpPost]
+        //public ActionResult Index(string nam)
+        //{
+        //    var n = from Name in db.Recipe
+        //               select Name;
+        //    //jeśli coś przesłano, to wyszukaj po tym
+        //    if (!String.IsNullOrEmpty(nam))
+        //    {
+        //        n = from Name in db.Recipe
+        //               where Name.Name.Equals(nam)
+        //               select Name;
+        //    }
 
-            return View(n.ToList());
-        }
+        //    return View(n.ToList());
+        //}
+
+        //public ActionResult search(string searchString)
+        //{
+        //    var recipes = from m in db.Recipe
+        //                 select m;
+
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        recipes = recipes.Where(s => s.Name.Contains(searchString));
+        //    }
+
+        //    return View(recipes);
+        //}
     }
 }

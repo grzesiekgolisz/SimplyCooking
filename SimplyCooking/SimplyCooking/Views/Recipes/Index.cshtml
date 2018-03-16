@@ -8,6 +8,14 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
+    @using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
+    {
+    <p>
+        Przepis: @Html.TextBox("SearchString") <br />
+        <input type="submit" value="szukaj" />
+    </p>
+    }
+    
 </p>
 <table class="table">
     <tr>
