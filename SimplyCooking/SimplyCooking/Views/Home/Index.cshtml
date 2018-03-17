@@ -18,6 +18,7 @@
     
     @foreach (var item in Model)
     {
+<<<<<<< HEAD
         int a= item.RecipeID;
 
         string poczatek = "~/recipes/Details/";
@@ -28,22 +29,55 @@
         <a href=@Url.Content(poczatek)>
             <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
         </a>
+=======
 
-        
+        <br />
+        @*<a href=@Url.Content("~/recipes/Details/")>
+            <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />*@
+    int a = item.RecipeID;
+>>>>>>> 7780ed5dd75733161fada96c259ee98885e35a55
+
+    string poczatek = "~/recipes/Details/";
+    string myString = a.ToString();
+
+    poczatek = poczatek + myString;
+
+
+            <a href=@Url.Content(poczatek)>
+                <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
+               
+                <br />
+            </a>
+        //</a>
+
 
     }
 
 
-    @using (Html.BeginForm())
-    {
-        <div>Szukaj przepis: </div>
-        <div>@Html.TextBox("ModelZnajdz")</div>
+<<<<<<< HEAD
+        </ div >*@
+=======
+    </ div >
+    
+
+    
+
+ 
+    @*<form action="/recipes/details" method="post" align="right">
+        <div float:left>Szukaj przepis: </div>
+        <div><input id="Name" name="nam" type="text" value="" /></div>
         <input type="submit" value="Szukaj" />
-    }
+
+    </form>*@
+
+
+    
 
     @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
 
         </ div >*@
+
+>>>>>>> 7780ed5dd75733161fada96c259ee98885e35a55
 
 
 
