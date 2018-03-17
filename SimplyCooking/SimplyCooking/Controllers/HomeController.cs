@@ -41,8 +41,6 @@ namespace SimplyCooking.Controllers
         }
 
 
-
-
         [HttpPost]
 public ActionResult Akcja(string imie)
         {
