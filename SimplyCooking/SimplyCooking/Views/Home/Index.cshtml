@@ -13,18 +13,27 @@
  <div>
     @model IEnumerable<SimplyCooking.Models.Recipe>
 
-    <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
+    <input type="button" class="btn btn-info" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
 
     @foreach (var item in Model)
     {
 
-        var id = @Html.DisplayFor(ModelItem => item.Name);
+
+        <br />
+        @*<a href=@Url.Content("~/recipes/Details/")>
+            <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />*@
+    int a = item.RecipeID;
+
+    string poczatek = "~/recipes/Details/";
+    string myString = a.ToString();
+
+    var id = @Html.DisplayFor(ModelItem => item.Name);
         <br />
 
-        int a = item.RecipeID;
+        //int a = item.RecipeID;
 
-        string poczatek = "~/recipes/Details/";
-        string myString = a.ToString();
+        //string poczatek = "~/recipes/Details/";
+        //string myString = a.ToString();
 
         poczatek = poczatek + myString;
         <br />
@@ -35,24 +44,21 @@
     }
 
 
-   
 
-
-
-
-    <form action="/Recipe/Index" method="post" align="right">
+    @*<form action="/recipes/details" method="post" align="right">
         <div float:left>Szukaj przepis: </div>
         <div><input id="Name" name="nam" type="text" value="" /></div>
         <input type="submit" value="Szukaj" />
 
-    </form>
+    </form>*@
 
-    @using (Html.BeginForm())
-    {
-        <div>Szukaj przepis: </div>
-        <div>@Html.TextBox("ModelZnajdz")</div>
-        <input type="submit" value="Szukaj" />
-    }
+
+    
+
+    @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
+
+        </ div >*@
+
 
    @* return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());*@
 
