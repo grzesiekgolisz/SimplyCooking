@@ -20,5 +20,6 @@ namespace SimplyCooking.Models
         public virtual List<Comment> Comment { get; set; }
         public virtual List<Equipment> Equipment { get; set; }
         public virtual List<Component> Component { get; set; }
+        
     }
 }

@@ -46,8 +46,8 @@ namespace SimplyCooking.Controllers
             return View(recipes);
         }
 
-    // GET: Recipes/Details/5
-    public ActionResult Details(int? id)
+        // GET: Recipes/Details/5
+        public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -153,5 +153,39 @@ namespace SimplyCooking.Controllers
             }
             base.Dispose(disposing);
         }
-
+    }
 }
+
+
+        //[HttpPost]
+        //public ActionResult Akcja(string nam)
+        //{
+        //    return View();
+        //}
+
+        //[HttpPost]
+        //public ActionResult Index(string nam)
+        //{
+        //    var n = from Name in db.Recipe
+        //            select Name;
+        //    //jeśli coś przesłano, to wyszukaj po tym
+        //    if (!String.IsNullOrEmpty(nam))
+        //    {
+        //        n = from Name in db.Recipe
+        //            where Name.Name.Equals(nam)
+        //            select Name;
+        //    }
+
+        //    return View(n.ToList());
+        //}
+        
+        //    public ActionResult wyswietlanie(int wys)
+        //    {
+
+
+        //    var recipes = db.Recipe.Include(r => r.Name);
+        //    return View(recipes.ToList());
+
+        //}
+
+

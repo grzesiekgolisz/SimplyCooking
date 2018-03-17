@@ -2,67 +2,49 @@
     ViewBag.Title = "Home Page";
 }
 
-
 <div class="jumbotron">
-    <h1 style="background-image: url('simply.gif')">Simply Cooking</h1>
+    <h1>Simply Cooking</h1>
     <p class="lead">Nasza aplikacja pomoże ci podjąc decyzje co chcesz ugotowac</p>
    @* <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
 
-<div class="dodaj">
 
 
+ <div>
     @model IEnumerable<SimplyCooking.Models.Recipe>
 
-    <input type="button" class="btn btn-info" value="Dodaj przepis" onclick="location.href='@Url.Action("index" , "recipes")'" />
-    
+    <input type="button" class="btn btn-info" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
+
     @foreach (var item in Model)
     {
-<<<<<<< HEAD
-        int a= item.RecipeID;
 
-        string poczatek = "~/recipes/Details/";
-        string myString = a.ToString();
-        
-        poczatek = poczatek + myString;
-        <br />
-        <a href=@Url.Content(poczatek)>
-            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
-        </a>
-=======
 
         <br />
         @*<a href=@Url.Content("~/recipes/Details/")>
             <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />*@
     int a = item.RecipeID;
->>>>>>> 7780ed5dd75733161fada96c259ee98885e35a55
 
     string poczatek = "~/recipes/Details/";
     string myString = a.ToString();
 
-    poczatek = poczatek + myString;
+    var id = @Html.DisplayFor(ModelItem => item.Name);
+        <br />
 
+        //int a = item.RecipeID;
 
-            <a href=@Url.Content(poczatek)>
-                <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
-               
-                <br />
-            </a>
-        //</a>
+        //string poczatek = "~/recipes/Details/";
+        //string myString = a.ToString();
 
+        poczatek = poczatek + myString;
+        <br />
+        <a href=@Url.Content(poczatek)>
+            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
+        </a>        
 
     }
 
 
-<<<<<<< HEAD
-        </ div >*@
-=======
-    </ div >
-    
 
-    
-
- 
     @*<form action="/recipes/details" method="post" align="right">
         <div float:left>Szukaj przepis: </div>
         <div><input id="Name" name="nam" type="text" value="" /></div>
@@ -77,7 +59,11 @@
 
         </ div >*@
 
->>>>>>> 7780ed5dd75733161fada96c259ee98885e35a55
+
+   @* return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());*@
+
+ 
+
 
 
 
