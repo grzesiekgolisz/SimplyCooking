@@ -23,7 +23,7 @@ namespace SimplyCooking.Controllers
         {
             var recipes = db.Recipe.Include(r => r.User);
             return View(recipes.ToList());
-            return View();
+            //return View();
         }
 
         public ActionResult About()
