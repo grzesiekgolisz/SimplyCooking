@@ -33,7 +33,12 @@ main,
 nav,
 section,
 summary {
-  display: block;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
 }
 
 audio,
@@ -315,7 +320,8 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
     color: black;
-    background-color: #D9FF75;                                                                       /*background color everythink*/
+    background-image: url("http://thumbs.dreamstime.com/b/zdrowy-t%C5%82a-jedzenie-pracowniana-fotografia-r%C3%B3%C5%BCni-owoc-i-warzywo-68279361.jpg"); /*background color everythink*/
+    background-size: 100%; /*t³o ca³ej strony*/
 }
 
 input,
@@ -2050,10 +2056,12 @@ fieldset[disabled] .btn {
           box-shadow: none;
 }
 
-.btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+.btn-default {       /*wyszukiwarka*/
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-left:140px;
+    margin-top:10px;
 }
 
 .btn-default:hover,
@@ -2066,11 +2074,12 @@ fieldset[disabled] .btn {
   border-color: #adadad;
 }
 
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
-  background-image: none;
-}
+    .btn-default:active,
+    .btn-default.active,
+    .open .dropdown-toggle.btn-default {
+        background-image: none;
+        display: inline-block;
+    }
 
 .btn-default.disabled,
 .btn-default[disabled],
@@ -5288,10 +5297,12 @@ a.thumbnail:focus {
     padding: 10px 15px;
     margin-bottom: -1px;
     font-weight: 900;
-    color: white;
-    background-color: #67ACFF; /* kolor listy 1 strona*/
-    border: 1px solid #D9FF75;
+    color: black;
+    background-color: #FFF0F5; /* kolor listy 1 strona*/
+    border: 1px solid #778899;
 }
+
+
 
 .lista{
 

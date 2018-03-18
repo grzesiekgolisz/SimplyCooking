@@ -27,7 +27,7 @@
                     <li>@using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
                     {
                         <p class="btn-default">
-                            Przepis: @Html.TextBox("SearchString") 
+                            <input id="SearchString" name="SearchString" placeholder="Podaj nazwę dania:" type="text" value="">
                             <input class="btn-success" type="submit" value="szukaj" />
                         </p>
                     }</li>
