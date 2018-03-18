@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Strona Główna";
 }
 
 <div class="jumbotron">
@@ -9,81 +9,29 @@
 </div>
 
 
+<div>  
+    <div class="lista">
+        @model IEnumerable<SimplyCooking.Models.Recipe>
 
- <div>
-    @model IEnumerable<SimplyCooking.Models.Recipe>
+        <input type="button" class="btn btn-toolbar" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
+        <ul class="list-group">
 
-    <input type="button" class="btn btn-info" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
+            @foreach (var item in Model)
+        {
 
-    @foreach (var item in Model)
-    {
+            int a = item.RecipeID;
+            string poczatek = "~/recipes/Details/";
+            string myString = a.ToString();
+            var id = @Html.DisplayFor(ModelItem => item.Name);
+            poczatek = poczatek + myString;
 
+            <a href=@Url.Content(poczatek) class="=list-group-item list-group-item-action">
 
-        <br />
-        @*<a href=@Url.Content("~/recipes/Details/")>
-            <input type="button" class="button" value=" @Html.DisplayFor(modelItem => item.Name)" />*@
-    int a = item.RecipeID;
-
-    string poczatek = "~/recipes/Details/";
-    string myString = a.ToString();
-
-    var id = @Html.DisplayFor(ModelItem => item.Name);
-        <br />
-
-        //int a = item.RecipeID;
-
-        //string poczatek = "~/recipes/Details/";
-        //string myString = a.ToString();
-
-        poczatek = poczatek + myString;
-        <br />
-        <a href=@Url.Content(poczatek)>
-            <input type="button" class="btn btn-info" value=" @Html.DisplayFor(modelItem => item.Name)" />
-        </a>        
+                <li class="list-group-item list-group-item-action"> @Html.DisplayFor(modelItem => item.Name)</li>
+            </a>
 
     }
 
 
-
-    @*<form action="/recipes/details" method="post" align="right">
-        <div float:left>Szukaj przepis: </div>
-        <div><input id="Name" name="nam" type="text" value="" /></div>
-        <input type="submit" value="Szukaj" />
-
-    </form>*@
-
-
-    
-
-    @*return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());
-
-        </ div >*@
-
-
-   @* return View(db.Students.Where(x = > x.Subjects == search || search == null).ToList());*@
-
- 
-
-
-
-
-
-
-    @*<div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-               Tutaj jakis opis
-            </p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </div>*@
-</div>
+            </div">
+    </div>

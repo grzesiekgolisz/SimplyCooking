@@ -26,9 +26,9 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
                     {
-                        <p>
+                        <p class="btn-default">
                             Przepis: @Html.TextBox("SearchString") 
-                            <input type="submit" value="szukaj" />
+                            <input class="btn-success" type="submit" value="szukaj" />
                         </p>
                     }</li>
                    
@@ -36,6 +36,7 @@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
+
     </div>
     <div class="container body-content">
         @RenderBody()
