@@ -4,10 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Lista przepisów</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @*@Html.ActionLink("Dodaj przepis", "Create")*@
+    <button type="button" onclick="location.href='@Url.Action("Create", "Recipes")'">Dodaj</button> 
+
     
     
 </p>
@@ -51,9 +53,12 @@
                     @Html.DisplayFor(modelItem => item.TypeofmealsID)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.RecipeID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.RecipeID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.RecipeID })
+                    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = item.RecipeID })'">Edytuj</button> |
+                    @*@Html.ActionLink("Edytuj", "Edit", new { id = item.RecipeID }) |*@
+                    <button type="button" onclick="location.href='@Url.Action("Details", "Recipes", new { id = item.RecipeID })'">Szczegóły</button> |
+                    @*@Html.ActionLink("Szczegóły", "Details", new { id = item.RecipeID }) |*@
+                    <button type="button" onclick="location.href='@Url.Action("Delete", "Recipes", new { id = item.RecipeID })'">Usuń</button> 
+                    @*@Html.ActionLink("Usuń", "Delete", new { id = item.RecipeID })*@
                 </td>
             </tr>
         }

@@ -55,8 +55,10 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
+    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.RecipeID })'">Edytuj</button> |
+    <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button> 
+    @*@Html.ActionLink("Back to List", "Index")*@
 </p>
 
 <div class="container">
