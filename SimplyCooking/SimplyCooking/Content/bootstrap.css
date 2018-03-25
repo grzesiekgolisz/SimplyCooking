@@ -73,6 +73,7 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
+  
 }
 
 h1 {
@@ -480,9 +481,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
 }
 
 h1 small,
@@ -769,6 +771,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   background-color: transparent ;
+  color: white;
 }
 
 .container:before,
@@ -6863,3 +6866,4 @@ td.visible-print {
     display: none !important;
   }
 }
+
