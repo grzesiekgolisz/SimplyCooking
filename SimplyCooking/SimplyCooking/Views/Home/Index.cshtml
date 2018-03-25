@@ -15,23 +15,5 @@
 
         <input type="button" class="btn btn-toolbar" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
         <ul class="list-group">
-
-            @foreach (var item in Model)
-        {
-
-            int a = item.RecipeID;
-            string poczatek = "~/recipes/Details/";
-            string myString = a.ToString();
-            var id = @Html.DisplayFor(ModelItem => item.Name);
-            poczatek = poczatek + myString;
-
-            <a href=@Url.Content(poczatek) class="=list-group-item list-group-item-action">
-
-                <li class="list-group-item list-group-item-action"> @Html.DisplayFor(modelItem => item.Name)</li>
-            </a>
-
-    }
-
-
             </div">
-    </div>
+ </div>
