@@ -7,6 +7,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -21,14 +22,14 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>*@
+                    <li>@Html.ActionLink("O nas", "About", "Home")</li>
+                    <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
                     <li>@using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
                     {
-                        <p>
-                            Przepis: @Html.TextBox("SearchString") 
-                            <input type="submit" value="szukaj" />
+                        <p class="btn-default">
+                            <input id="SearchString" name="SearchString" placeholder="Podaj nazwę dania:" type="text" value="">
+                            <input class="btn-success" type="submit" value="szukaj" />
                         </p>
                     }</li>
                    
@@ -36,12 +37,14 @@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
+
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - PO DOJCZE CORPORATION</p>
+             
         </footer>
     </div>
 

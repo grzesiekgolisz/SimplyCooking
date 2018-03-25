@@ -6,30 +6,16 @@
 
 
 
-<h2>Szczegóły przepisu</h2>
+<h2>@Html.DisplayFor(model => model.Name)</h2>
 
 <div>
     <h4></h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.User.Email)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.User.Email)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Description)
+            Opis
         </dt>
 
         <dd>
@@ -37,26 +23,78 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TypeofdishesID)
+            Pora posiłku
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.TypeofdishesID)
+            @if (Model.TypeofdishesID == 1)
+            {
+
+
+                string wynik = "śniadanie";
+
+                @Html.Raw(wynik);
+            }
+
+
+            @if (Model.TypeofdishesID == 2)
+            {
+                string wynik = "Obiad";
+
+                @Html.Raw(wynik);
+            }
+
+              @if (Model.TypeofdishesID == 3)
+            {
+                string wynik = "Kolacja";
+
+                @Html.Raw(wynik);
+            }
+
+
+
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.TypeofmealsID)
+           Kuchnia
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.TypeofmealsID)
+           
+
+            @if (Model.TypeofmealsID == 1)
+            {
+
+
+                string wynik = "tajska";
+
+        @Html.Raw(wynik);
+}
+
+
+            @if (Model.TypeofmealsID == 2)
+            {
+                string wynik = "włoska";
+
+        @Html.Raw(wynik);
+}
+
+            @if (Model.TypeofmealsID == 3)
+            {
+                string wynik = "Chińska";
+
+        @Html.Raw(wynik);
+}
+
         </dd>
 
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
+    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.RecipeID })'">Edytuj</button> |
+    <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
+    @*@Html.ActionLink("Back to List", "Index")*@
 </p>
 
 <div class="container">

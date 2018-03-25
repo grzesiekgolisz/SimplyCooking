@@ -33,7 +33,12 @@ main,
 nav,
 section,
 summary {
-  display: block;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
 }
 
 audio,
@@ -68,6 +73,7 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
+  
 }
 
 h1 {
@@ -312,11 +318,12 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: white;
-  background-color: slategray;                                              /*background color everythink*/ 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: black;
+    background-image: url("http://thumbs.dreamstime.com/b/zdrowy-t%C5%82a-jedzenie-pracowniana-fotografia-r%C3%B3%C5%BCni-owoc-i-warzywo-68279361.jpg"); /*background color everythink*/
+    background-size: 100%; /*t³o ca³ej strony*/
 }
 
 input,
@@ -474,9 +481,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
 }
 
 h1 small,
@@ -763,6 +771,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   background-color: transparent ;
+  color: white;
 }
 
 .container:before,
@@ -1737,6 +1746,26 @@ input[type="number"]::-webkit-inner-spin-button {
           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
+.form-text {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+
+
+
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
@@ -2051,10 +2080,12 @@ fieldset[disabled] .btn {
           box-shadow: none;
 }
 
-.btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+.btn-default {       /*wyszukiwarka*/
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-left:140px;
+    margin-top:10px;
 }
 
 .btn-default:hover,
@@ -2067,11 +2098,12 @@ fieldset[disabled] .btn {
   border-color: #adadad;
 }
 
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
-  background-image: none;
-}
+    .btn-default:active,
+    .btn-default.active,
+    .open .dropdown-toggle.btn-default {
+        background-image: none;
+        display: inline-block;
+    }
 
 .btn-default.disabled,
 .btn-default[disabled],
@@ -4936,7 +4968,7 @@ a.list-group-item.active > .badge,
     font-size: 21px;
     font-weight: 1;
     line-height: 2.1428571435;
-    /*color: black;*/
+    color: white;
     
 
     background-image: url("http://i.ytimg.com/vi/3smKg8PCupU/maxresdefault.jpg");
@@ -5284,12 +5316,21 @@ a.thumbnail:focus {
 }
 
 .list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    font-weight: 900;
+    color: black;
+    background-color: #FFF0F5; /* kolor listy 1 strona*/
+    border: 1px solid #778899;
+}
+
+
+
+.lista{
+
+    width:300px;
 }
 
 .list-group-item:first-child {
@@ -5343,7 +5384,7 @@ a.list-group-item:focus {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+  color: #555555;
 }
 
 .list-group-item-heading {
@@ -6845,3 +6886,4 @@ td.visible-print {
     display: none !important;
   }
 }
+
