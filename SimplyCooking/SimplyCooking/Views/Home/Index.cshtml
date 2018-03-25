@@ -9,29 +9,14 @@
 </div>
 
 
-<div>  
+<div class="dodaj" >
+    <img src="http://www.zdrowawagaklub.pl/theme/images/dodaj_przepis.png" onclick="location.href='@Url.Action("Create", "Recipes")'" />
+
+</div>
+
     <div class="lista">
-        @model IEnumerable<SimplyCooking.Models.Recipe>
-
-        <input type="button" class="btn btn-toolbar" value="Lista przepisów" onclick="location.href='@Url.Action("index" , "recipes")'" />
-        <ul class="list-group">
-
-            @foreach (var item in Model)
-        {
-
-            int a = item.RecipeID;
-            string poczatek = "~/recipes/Details/";
-            string myString = a.ToString();
-            var id = @Html.DisplayFor(ModelItem => item.Name);
-            poczatek = poczatek + myString;
-
-            <a href=@Url.Content(poczatek) class="=list-group-item list-group-item-action">
-
-                <li class="list-group-item list-group-item-action"> @Html.DisplayFor(modelItem => item.Name)</li>
-            </a>
-
-    }
-
-
-            </div">
+        <img src="http://www.zdrowawagaklub.pl/theme/images/dodaj_przepis.png" onclick="location.href='@Url.Action("index" , "recipes")'" />
     </div>
+  
+ <div style="clear:both"></div>
+

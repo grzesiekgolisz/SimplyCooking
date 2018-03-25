@@ -1,3 +1,4 @@
+
 /* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
@@ -5327,12 +5328,6 @@ a.thumbnail:focus {
 }
 
 
-
-.lista{
-
-    width:300px;
-}
-
 .list-group-item:first-child {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -6886,4 +6881,9 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+
+
+    
 
