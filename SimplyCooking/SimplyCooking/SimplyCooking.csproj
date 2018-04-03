@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201803091827308_dodanie_tabel.Designer.cs">
       <DependentUpon>201803091827308_dodanie_tabel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804011421590_dodanie_tabeli_photo.cs" />
+    <Compile Include="Migrations\201804011421590_dodanie_tabeli_photo.Designer.cs">
+      <DependentUpon>201804011421590_dodanie_tabeli_photo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -216,8 +220,10 @@
     <Compile Include="Models\Equipment.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Photo.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\RecipeDetailsViewModel.cs" />
     <Compile Include="Models\Typeofdish.cs" />
     <Compile Include="Models\Typeofmeal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -295,6 +301,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Themes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -314,6 +321,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201803091827308_dodanie_tabel.resx">
       <DependentUpon>201803091827308_dodanie_tabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804011421590_dodanie_tabeli_photo.resx">
+      <DependentUpon>201804011421590_dodanie_tabeli_photo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

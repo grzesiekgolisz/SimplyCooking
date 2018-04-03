@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 
 namespace SimplyCooking.Models
 {
@@ -20,6 +17,7 @@ namespace SimplyCooking.Models
         public virtual List<Comment> Comment { get; set; }
         public virtual List<Equipment> Equipment { get; set; }
         public virtual List<Component> Component { get; set; }
-        
+        public virtual List<Photo> Photos { get; set; }
+
     }
 }
