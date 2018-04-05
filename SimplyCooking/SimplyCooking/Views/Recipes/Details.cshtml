@@ -27,29 +27,19 @@
         </dt>
 
         <dd>
-            @if (Model.Recipe.TypeofdishesID == 1)
-            {
+           
 
 
-                string wynik = "śniadanie";
 
-                @Html.Raw(wynik);
-            }
+            
+            @{string typeofdish = Convert.ToString(Model.Recipe.Typeofdish); }
+            @Html.Raw(typeofdish);}
 
 
-            @if (Model.Recipe.TypeofdishesID == 2)
-            {
-                string wynik = "Obiad";
 
-                @Html.Raw(wynik);
-            }
 
-            @if (Model.Recipe.TypeofdishesID == 3)
-            {
-                string wynik = "Kolacja";
+           
 
-                @Html.Raw(wynik);
-            }
 
 
 
@@ -60,39 +50,19 @@
         </dt>
 
         <dd>
-            @if (Model.Recipe.TypeofmealsID == 1)
-            {
-
-
-                string wynik = "Tajska";
-
-                @Html.Raw(wynik);
-            }
-
-
-            @if (Model.Recipe.TypeofmealsID == 2)
-            {
-                string wynik = "Włoska";
-
-                @Html.Raw(wynik);
-            }
-
-            @if (Model.Recipe.TypeofmealsID == 3)
-            {
-                string wynik = "Chińska";
-
-                @Html.Raw(wynik);
-            }
-
+           @Html.Raw(Model.Recipe.Typeofdish);
+            
         </dd>
+
         @foreach (var item in Model.Recipe.Photos)
         {
             <dt>
                 @item.Title
             </dt>
-            <dt>
-                <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="" height="100" width="200" />
-            </dt>
+
+            <div class="details"> 
+                <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="zdjecie dania"  class="mojezdj"/>
+            </div>
         }
     </dl>
 </div>
