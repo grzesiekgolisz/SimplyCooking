@@ -19,7 +19,11 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Recipe.Description)
+
+
+            @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
+            @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
+           
         </dd>
 
         <dt>

@@ -1,0 +1,846 @@
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Owin.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+c:\users\tomasz\documents\visual studio 2017\Projects\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Tomasz\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\rsusk\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\Tomasz\Desktop\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\pawel\OneDrive - The Opole University of Technology\studia\semestr 6\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\Patryk\Desktop\projekt zbiorowy\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.rsp
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.exe
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csi.rsp
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.AppContext.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.exe.config
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\vbc.rsp
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll.config
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\SimplyCooking.pdb
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Owin.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\WebGrease.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Net.Http.Formatting.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Http.WebHost.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Helpers.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Mvc.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Optimization.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.Razor.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Antlr3.Runtime.pdb
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Newtonsoft.Json.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\EntityFramework.SqlServer.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\Microsoft.AI.Web.xml
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Net.Http.Formatting.resources.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.resources.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\bin\pl\System.Web.Http.WebHost.resources.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csprojResolveAssemblyReference.cache
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabel.resources
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.Migrations.dodanie_tabeli_photo.resources
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.GenerateResource.Cache
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
+C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb

@@ -6,6 +6,7 @@ namespace SimplyCooking.Models
     {
         public int PhotoId { get; set; }
         public string Title { get; set; }
+        [AllowHtml]
         public string Description { get; set; }
         [AllowHtml]
         public string Contents { get; set; }

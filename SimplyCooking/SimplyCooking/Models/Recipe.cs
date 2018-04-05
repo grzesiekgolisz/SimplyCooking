@@ -1,13 +1,16 @@
 ﻿using System.Collections.Generic;
+using System.Web.Mvc;
 
 namespace SimplyCooking.Models
 {
     public class Recipe
     {
-        public int RecipeID { get; set; }
+        public int RecipeID { get; set; } 
         public string UserID { get; set; }
         public string Name { get; set; }
+        [AllowHtml]
         public string Description { get; set; }
+        [AllowHtml]
         public int TypeofdishesID { get; set; }
         public int TypeofmealsID { get; set; }
 
