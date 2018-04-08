@@ -1,16 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
+using System.Data.Entity;
+using SimplyCooking.Models;
+
 
 namespace SimplyCooking.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext db = new ApplicationDbContext();
         public ActionResult Index()
         {
-            return View();
+            var recipes = db.Recipe.Include(r => r.User);
+            return View(recipes.ToList());
+            //return View();
         }
 
         public ActionResult About()
@@ -26,5 +29,14 @@ namespace SimplyCooking.Controllers
 
             return View();
         }
+
+
+        [HttpPost]
+        public ActionResult Akcja(string imie)
+        {
+            return View();
+        }
+
+
     }
 }

@@ -33,7 +33,12 @@ main,
 nav,
 section,
 summary {
-  display: block;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
 }
 
 audio,
@@ -68,6 +73,7 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
+  
 }
 
 h1 {
@@ -222,6 +228,7 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  
 }
 
 @media print {
@@ -311,11 +318,12 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
-  background-color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: black;
+    background-image: url("http://thumbs.dreamstime.com/b/zdrowy-t%C5%82a-jedzenie-pracowniana-fotografia-r%C3%B3%C5%BCni-owoc-i-warzywo-68279361.jpg"); /*background color everythink*/
+    background-size: 100%; /*t³o ca³ej strony*/
 }
 
 input,
@@ -323,7 +331,7 @@ button,
 select,
 textarea {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 15px;
   line-height: inherit;
 }
 
@@ -473,9 +481,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
 }
 
 h1 small,
@@ -761,6 +770,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: transparent ;
+  color: black;
 }
 
 .container:before,
@@ -769,9 +780,10 @@ pre code {
   content: " ";
 }
 
-.container:after {
-  clear: both;
-}
+    .container:after {
+        clear: both;
+       
+    }
 
 .container:before,
 .container:after {
@@ -1725,7 +1737,7 @@ input[type="number"]::-webkit-inner-spin-button {
   line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
-  background-color: #ffffff;
+  background-color: #fffff;
   border: 1px solid #cccccc;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1733,6 +1745,26 @@ input[type="number"]::-webkit-inner-spin-button {
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+
+.form-text {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+
+
 
 .form-control:focus {
   border-color: #66afe9;
@@ -2048,10 +2080,12 @@ fieldset[disabled] .btn {
           box-shadow: none;
 }
 
-.btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+.btn-default {       /*wyszukiwarka*/
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-left:140px;
+    margin-top:10px;
 }
 
 .btn-default:hover,
@@ -2064,11 +2098,12 @@ fieldset[disabled] .btn {
   border-color: #adadad;
 }
 
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
-  background-image: none;
-}
+    .btn-default:active,
+    .btn-default.active,
+    .open .dropdown-toggle.btn-default {
+        background-image: none;
+        display: inline-block;
+    }
 
 .btn-default.disabled,
 .btn-default[disabled],
@@ -4928,13 +4963,17 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: greenyellow;
-  background-color: black;
+    padding: 1px;
+    margin-bottom: 1px;
+    font-size: 21px;
+    font-weight: 1;
+    line-height: 2.1428571435;
+    color: white;
+    
+
+    background-image: url("http://i.ytimg.com/vi/3smKg8PCupU/maxresdefault.jpg");
+
+ 
 }
 
 .jumbotron h1 {
@@ -4978,19 +5017,23 @@ a.list-group-item.active > .badge,
           transition: all 0.2s ease-in-out;
 }
 
+.button1 {
+    border: none;
+    background: black;
+    font-size: 24px; 
 
-.listmoje{
-
-    height:auto;
-    background-color:yellow;
-    border-width:10px;
-    border-color:orangered;
-    font-size:18px;
-    color:forestgreen;
-    width:200px;
-    
+}
 
 
+
+.recipeslist {
+    height: auto;
+    background-color: black;
+    border-width: 10px;
+    border-color: orangered;
+    font-size: 18px;
+    color: white;
+    width: 200px;
 }
 
 .thumbnail > img {
@@ -5268,12 +5311,21 @@ a.thumbnail:focus {
 }
 
 .list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    font-weight: 900;
+    color: black;
+    background-color: #FFF0F5; /* kolor listy 1 strona*/
+    border: 1px solid #778899;
+}
+
+
+
+.lista{
+
+    width:300px;
 }
 
 .list-group-item:first-child {
@@ -5327,7 +5379,7 @@ a.list-group-item:focus {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+  color: #555555;
 }
 
 .list-group-item-heading {
@@ -6829,3 +6881,4 @@ td.visible-print {
     display: none !important;
   }
 }
+
