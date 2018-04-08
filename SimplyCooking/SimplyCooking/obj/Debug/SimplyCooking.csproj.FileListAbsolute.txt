@@ -844,6 +844,7 @@ C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\ob
 C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
 C:\Users\Patryk\Desktop\Dobr-Patryk\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+<<<<<<< HEAD
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\ApplicationInsights.config
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\bin\roslyn\csc.exe.config
@@ -953,3 +954,5 @@ C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\Si
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.dll
 C:\Users\Patryk\Documents\SimplyCooking\SimplyCooking\SimplyCooking\obj\Debug\SimplyCooking.pdb
+=======
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
