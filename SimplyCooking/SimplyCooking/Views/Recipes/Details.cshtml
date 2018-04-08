@@ -7,13 +7,18 @@
 <script src="~/Themes/ckeditor/ckeditor.js"></script>
 
 
+<<<<<<< HEAD
 
 <h2>@Html.DisplayFor(model => model.Recipe.Name)</h2>
+=======
+<h2>@Html.DisplayFor(model => model.Name)</h2>
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
 
 <div>
     <h4></h4>
     <hr />
     <dl class="dl-horizontal">
+<<<<<<< HEAD
         <dt>
             Opis
         </dt>
@@ -32,6 +37,16 @@
             @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
            
 >>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
+=======
+
+
+        <dt>
+            Opis
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
         </dd>
 
         <dt>
@@ -39,7 +54,11 @@
         </dt>
 
         <dd>
+<<<<<<< HEAD
             @if (Model.Recipe.TypeofdishesID == 1)
+=======
+            @if (Model.TypeofdishesID == 1)
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
             {
 
 
@@ -49,14 +68,22 @@
             }
 
 
+<<<<<<< HEAD
             @if (Model.Recipe.TypeofdishesID == 2)
+=======
+            @if (Model.TypeofdishesID == 2)
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
             {
                 string wynik = "Obiad";
 
                 @Html.Raw(wynik);
             }
 
+<<<<<<< HEAD
             @if (Model.Recipe.TypeofdishesID == 3)
+=======
+              @if (Model.TypeofdishesID == 3)
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
             {
                 string wynik = "Kolacja";
 
@@ -68,6 +95,7 @@
         </dd>
 
         <dt>
+<<<<<<< HEAD
             Kuchnia
         </dt>
 
@@ -81,6 +109,39 @@
                 @Html.Raw(wynik);
             }
 
+=======
+           Kuchnia
+        </dt>
+
+        <dd>
+           
+
+            @if (Model.TypeofmealsID == 1)
+            {
+
+
+                string wynik = "tajska";
+
+        @Html.Raw(wynik);
+}
+
+
+            @if (Model.TypeofmealsID == 2)
+            {
+                string wynik = "włoska";
+
+        @Html.Raw(wynik);
+}
+
+            @if (Model.TypeofmealsID == 3)
+            {
+                string wynik = "Chińska";
+
+        @Html.Raw(wynik);
+}
+
+        </dd>
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
 
             @if (Model.Recipe.TypeofmealsID == 2)
             {
@@ -109,6 +170,7 @@
     </dl>
 </div>
 <p>
+<<<<<<< HEAD
     <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
     <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.Recipe.RecipeID })'">Edytuj</button>
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -161,12 +223,26 @@
     </div>
 
 
+=======
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
+    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.RecipeID })'">Edytuj</button> |
+    <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
+    @*@Html.ActionLink("Back to List", "Index")*@
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
 </p>
 @*<div class="container">
 
+<<<<<<< HEAD
         <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 
     </div>*@
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+=======
+<div class="container">
+
+    <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+
+</div>
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74

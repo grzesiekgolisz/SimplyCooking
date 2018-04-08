@@ -7,6 +7,7 @@
 
  
 
+<<<<<<< HEAD
 @using (Html.BeginForm())
   
 {
@@ -18,16 +19,52 @@
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
 
-        </div>
+=======
 
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Dodaj przepis</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.UserID, "UserID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UserID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.UserID, "", new { @class = "text-danger" })
+            </div>*@
+    </div>
+
+    <div class="form-group">
+        <div class="control-label col-md-2"> <h4>Nazwa przepisu</h4></div>
+        <div class="col-md-10">
+
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
+        </div>
+    </div>
+
+<<<<<<< HEAD
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Nazwa przepisu</h4></div>
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
             </div>
+=======
+    <div class="form-group">
+        <div class="control-label col-md-2"> <h4>Sposób przygotowania</h4></div>
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Description, new { @class = "form-text" })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
         </div>
+    </div>
 
+<<<<<<< HEAD
         @*<div class="form-group">
                 <div class="control-label col-md-2"> <h4>Zdjęcie przepisu</h4></div>
                 <div class="col-md-10">
@@ -41,6 +78,23 @@
             <div class="col-md-10">
                 @Html.TextAreaFor(model => model.Description, new { @class = "ckeditor" })
                 @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+=======
+    
+    <div class="form-group">
+        <div class="control-label col-md-2"> <h4>Składniki</h4></div>
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Component , new { @class = "form-text" })
+            @Html.ValidationMessageFor(model => model.Component, "", new { @class = "text-danger" })
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <div class="control-label col-md-2"> <h4>Dodaj zdjęcie</h4></div>
+        <div class="col-md-10">
+            <form action="..." enctype="multipart/form-data" >
+                <input  type="file" name="nazwa" />
+            </form>
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
             </div>
         </div>
         <div class="form-group">
@@ -68,6 +122,13 @@
     </div>
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
 <div>
 
     <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
