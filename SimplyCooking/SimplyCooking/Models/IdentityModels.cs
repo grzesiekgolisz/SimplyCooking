@@ -37,11 +37,27 @@ namespace SimplyCooking.Models
         public DbSet<Product> Product { get; set; }
         public DbSet<Typeofdish> Typeofdish { get; set; }
         public DbSet<Typeofmeal> Typeofmeal { get; set; }
+        public DbSet<Photo> Photo { get; set; }
 
 
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    var recipeEntity = modelBuilder.Entity<Recipe>();
+
+        //    recipeEntity.HasMany(x => x.Photos)
+        //        .WithRequired(x => x.Recipe)
+        //        .HasForeignKey(x => x.RecipeId);
+
+        //    var photoEntity = modelBuilder.Entity<Photo>();
+
+        //    photoEntity.HasRequired(x => x.Recipe)
+        //        .WithMany(x => x.Photos)
+        //        .HasForeignKey(x => x.RecipeId);
+        //}
     }
 }

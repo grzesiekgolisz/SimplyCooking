@@ -771,7 +771,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   background-color: transparent ;
-  color: white;
+  color: black;
 }
 
 .container:before,
@@ -5024,12 +5024,7 @@ a.list-group-item.active > .badge,
 
 }
 
-.dodaj {
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    float: left;
-}
+
 
 .recipeslist {
     height: auto;

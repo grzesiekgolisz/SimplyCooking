@@ -1,17 +1,24 @@
-﻿@model SimplyCooking.Models.Recipe
+﻿@model SimplyCooking.Models.RecipeDetailsViewModel
 
 @{
     ViewBag.Title = "Details";
 }
 
+<script src="~/Themes/ckeditor/ckeditor.js"></script>
 
 
+<<<<<<< HEAD
 <h2>@Html.DisplayFor(model => model.Name)</h2>
+=======
+
+<h2>@Html.DisplayFor(model => model.Recipe.Name)</h2>
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
 
 <div>
     <h4></h4>
     <hr />
     <dl class="dl-horizontal">
+<<<<<<< HEAD
 
 
         <dt>
@@ -20,6 +27,18 @@
 
         <dd>
             @Html.DisplayFor(model => model.Description)
+=======
+        <dt>
+            Opis
+        </dt>
+
+        <dd>
+
+
+            @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
+            @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
+           
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
         </dd>
 
         <dt>
@@ -27,7 +46,11 @@
         </dt>
 
         <dd>
+<<<<<<< HEAD
             @if (Model.TypeofdishesID == 1)
+=======
+            @if (Model.Recipe.TypeofdishesID == 1)
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
             {
 
 
@@ -37,14 +60,22 @@
             }
 
 
+<<<<<<< HEAD
             @if (Model.TypeofdishesID == 2)
+=======
+            @if (Model.Recipe.TypeofdishesID == 2)
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
             {
                 string wynik = "Obiad";
 
                 @Html.Raw(wynik);
             }
 
+<<<<<<< HEAD
               @if (Model.TypeofdishesID == 3)
+=======
+            @if (Model.Recipe.TypeofdishesID == 3)
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
             {
                 string wynik = "Kolacja";
 
@@ -56,6 +87,7 @@
         </dd>
 
         <dt>
+<<<<<<< HEAD
            Kuchnia
         </dt>
 
@@ -87,18 +119,122 @@
 }
 
         </dd>
+=======
+            Kuchnia
+        </dt>
 
+        <dd>
+            @if (Model.Recipe.TypeofmealsID == 1)
+            {
+
+
+                string wynik = "Tajska";
+
+                @Html.Raw(wynik);
+            }
+
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
+
+            @if (Model.Recipe.TypeofmealsID == 2)
+            {
+                string wynik = "Włoska";
+
+                @Html.Raw(wynik);
+            }
+
+            @if (Model.Recipe.TypeofmealsID == 3)
+            {
+                string wynik = "Chińska";
+
+                @Html.Raw(wynik);
+            }
+
+        </dd>
+        @foreach (var item in Model.Recipe.Photos)
+        {
+            <dt>
+                @item.Title
+            </dt>
+            <dt>
+                <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="" height="100" width="200" />
+            </dt>
+        }
     </dl>
 </div>
 <p>
+<<<<<<< HEAD
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
     <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.RecipeID })'">Edytuj</button> |
     <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
     @*@Html.ActionLink("Back to List", "Index")*@
-</p>
+=======
+    <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
+    <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.Recipe.RecipeID })'">Edytuj</button>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Dodaj zdjęcie
+    </button>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Dodaj zdjęcie do przepisu</h4>
+                </div>
+                @using (Html.BeginForm("UploadPhoto", "Recipes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.Hidden("RecipeId", Model.Recipe.RecipeID)
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Photo.Title, new { htmlAttributes = new { placeholder = "Tytuł zdjęcia", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Photo.Title, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Photo.Description, new { htmlAttributes = new { placeholder = "Opis", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Photo.Description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Photo.Contents, new { htmlAttributes = new { placeholder = "Kontent", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Photo.Contents, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                            </div>
+                            <input type="file" name="ImageData" id="ImageData" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                            <input type="submit" class="btn btn-primary" value="Zapisz" />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
+</p>
+@*<div class="container">
+
+<<<<<<< HEAD
 <div class="container">
 
     <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 
 </div>
+=======
+        <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+
+    </div>*@
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+>>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569

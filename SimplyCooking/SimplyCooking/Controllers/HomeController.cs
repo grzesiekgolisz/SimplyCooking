@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
-using System.Web.Mvc;
 using SimplyCooking.Models;
 
 
@@ -42,7 +32,7 @@ namespace SimplyCooking.Controllers
 
 
         [HttpPost]
-public ActionResult Akcja(string imie)
+        public ActionResult Akcja(string imie)
         {
             return View();
         }
