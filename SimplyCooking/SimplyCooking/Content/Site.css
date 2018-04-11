@@ -34,10 +34,18 @@ textarea {
     margin-right:10px;
 
 }
-.srodkowy{
 
+
+.srodek {
     margin-left:auto;
     margin-right:auto;
+    float:left; 
+    padding:5px;
+}
+
+.srodkowy {
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
     margin-left: auto;

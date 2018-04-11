@@ -34,11 +34,17 @@
 
         <dd>
 
-
-            @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
+            <div id="szer" style="height:auto;">
+                @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
+             
+            </div>
             @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
+<<<<<<< HEAD
            
 >>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
+=======
+
+>>>>>>> ecc88b38b80415c67f5b94ec1f3819c991dcfa6f
         </dd>
 
         <dt>
@@ -150,17 +156,29 @@
             }
 
         </dd>
-        @foreach (var item in Model.Recipe.Photos)
-        {
+    </dl>
+
+    @foreach (var item in Model.Recipe.Photos)
+    {
+    <center>
+        <div class="srodek" >
+
+
             <dt>
                 @item.Title
             </dt>
             <dt>
                 <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="" height="100" width="200" />
             </dt>
-        }
-    </dl>
+
+        </div>
+    </center>
+    }
+
+
+
 </div>
+<<<<<<< HEAD
 <p>
 <<<<<<< HEAD
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
@@ -190,38 +208,69 @@
                             <div class="col-md-10">
                                 @Html.EditorFor(model => model.Photo.Title, new { htmlAttributes = new { placeholder = "Tytuł zdjęcia", @class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.Photo.Title, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Photo.Description, new { htmlAttributes = new { placeholder = "Opis", @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Photo.Description, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Photo.Contents, new { htmlAttributes = new { placeholder = "Kontent", @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Photo.Contents, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                            </div>
-                            <input type="file" name="ImageData" id="ImageData" />
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-                            <input type="submit" class="btn btn-primary" value="Zapisz" />
-                        </div>
+=======
+<div style="clear: both;">
+    <p>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.Recipe.RecipeID })'">Edytuj</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Dodaj zdjęcie
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Dodaj zdjęcie do przepisu</h4>
                     </div>
-                }
+                    @using (Html.BeginForm("UploadPhoto", "Recipes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.Hidden("RecipeId", Model.Recipe.RecipeID)
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Photo.Title, new { htmlAttributes = new { placeholder = "Tytuł zdjęcia", @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Photo.Title, "", new { @class = "text-danger" })
+                                </div>
+>>>>>>> ecc88b38b80415c67f5b94ec1f3819c991dcfa6f
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Photo.Description, new { htmlAttributes = new { placeholder = "Opis", @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Photo.Description, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Photo.Contents, new { htmlAttributes = new { placeholder = "Kontent", @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Photo.Contents, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                </div>
+                                <input type="file" name="ImageData" id="ImageData" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                                <input type="submit" class="btn btn-primary" value="Zapisz" />
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
-    </div>
 
 
+<<<<<<< HEAD
 >>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
 </p>
+=======
+    </p>
+</div>
+>>>>>>> ecc88b38b80415c67f5b94ec1f3819c991dcfa6f
 @*<div class="container">
 
 <<<<<<< HEAD
