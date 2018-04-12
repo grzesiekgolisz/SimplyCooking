@@ -410,7 +410,7 @@
     <Content Include="Views\Components\Details.cshtml" />
     <Content Include="Views\Components\Edit.cshtml" />
     <Content Include="Views\Components\Index.cshtml" />
-    <Content Include="Views\Home\sniadania.cshtml" />
+    <Content Include="Views\Home\kolacje.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
