@@ -34,6 +34,7 @@
         </dt>
 
         <dd>
+
             <p class="bg-my2">
                 @if (Model.Recipe.TypeofdishesID == 1)
                 {
@@ -41,8 +42,18 @@
 
                     string wynik = "śniadanie";
 
+           
+
+
+
+            
+            @{string typeofdish = Convert.ToString(Model.Recipe.Typeofdish); }
+            @Html.Raw(typeofdish);}
+
+
                     @Html.Raw(wynik);
                 }
+
 
 
                 @if (Model.Recipe.TypeofdishesID == 2)
@@ -56,6 +67,11 @@
                 {
                     string wynik = "Kolacja";
 
+
+           
+
+
+
                     @Html.Raw(wynik);
                 }
 
@@ -68,6 +84,7 @@
         </dt>
 
         <dd>
+
             <p class="bg-my2">
                 @if (Model.Recipe.TypeofmealsID == 1)
                 {
@@ -94,6 +111,22 @@
                 }
             </p>
         </dd>
+
+           @Html.Raw(Model.Recipe.Typeofdish);
+            
+        </dd>
+
+        @foreach (var item in Model.Recipe.Photos)
+        {
+            <dt>
+                @item.Title
+            </dt>
+
+            <div class="details"> 
+                <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="zdjecie dania"  class="mojezdj"/>
+            </div>
+        }
+
     </dl>
 
     @foreach (var item in Model.Recipe.Photos)
