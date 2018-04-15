@@ -30,6 +30,36 @@ namespace SimplyCooking.Controllers
             return View();
         }
 
+        public ActionResult sniadania(int id)
+        {
+            var dishesList = db.Recipe.Where(x => x.TypeofdishesID == id).ToList();
+            return View(dishesList);
+        }
+
+        public ActionResult obiady(int id)
+        {
+            var dishesList = db.Recipe.Where(x => x.TypeofdishesID == id).ToList();
+            return View(dishesList);
+        }
+
+        public ActionResult kolacje(int id)
+        {
+            var dishesList = db.Recipe.Where(x => x.TypeofdishesID == id).ToList();
+            return View(dishesList);
+        }
+
+        public ActionResult TypeOfDishesIndex(int id)
+        {
+            var dishesList = db.Recipe.Where(x => x.TypeofdishesID == id).ToList();
+            return View(dishesList);
+        }
+
+        public ActionResult TypeOfMealsIndex(int id)
+        {
+            var mealsList = db.Recipe.Where(x => x.TypeofmealsID == id).ToList();
+            return View(mealsList);
+        }
+
 
         [HttpPost]
         public ActionResult Akcja(string imie)

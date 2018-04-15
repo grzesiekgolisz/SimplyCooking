@@ -7,7 +7,6 @@
 <h2>Lista przepisów</h2>
 
 <p>
-    @*@Html.ActionLink("Dodaj przepis", "Create")*@
     <button type="button" onclick="location.href='@Url.Action("Create", "Recipes")'">Dodaj</button> 
 
     
@@ -15,50 +14,32 @@
 </p>
 <div class="table-responsive"style="background-color:antiquewhite; color: black; ">
     <table  class="table table-hover">
-        <tr>
-            @*<th>
-                @Html.DisplayNameFor(model => model.User.Email)
-            </th>*@
+        <tr>            
             <th>
                 Nazwa
             </th>
             <th>
                 Opis
             </th>
-            @*<th>
-                @Html.DisplayNameFor(model => model.TypeofdishesID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TypeofmealsID)
-            </th>
-            <th></th>*@
+           
         </tr>
 
         @foreach (var item in Model)
         {
             <tr>
-                @*<td>
-                    @Html.DisplayFor(modelItem => item.User.Email)
-                </td>*@
+                
                 <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Description)
+                    
+                    @Html.Raw(item.Description)
                 </td>
-                @*<td>
-                    @Html.DisplayFor(modelItem => item.TypeofdishesID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TypeofmealsID)
-                </td>*@
+               
                 <td>
                     <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = item.RecipeID })'">Edytuj</button> |
-                    @*@Html.ActionLink("Edytuj", "Edit", new { id = item.RecipeID }) |*@
                     <button type="button" onclick="location.href='@Url.Action("Details", "Recipes", new { id = item.RecipeID })'">Szczegóły</button> |
-                    @*@Html.ActionLink("Szczegóły", "Details", new { id = item.RecipeID }) |*@
                     <button type="button" onclick="location.href='@Url.Action("Delete", "Recipes", new { id = item.RecipeID })'">Usuń</button> 
-                    @*@Html.ActionLink("Usuń", "Delete", new { id = item.RecipeID })*@
                 </td>
             </tr>
         }

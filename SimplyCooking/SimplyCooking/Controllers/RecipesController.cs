@@ -106,8 +106,29 @@ namespace SimplyCooking.Controllers
         // GET: Recipes/Create
         public ActionResult Create()
         {
+            var vm = new RecipesCreateViewModel
+            {
+                TypeOfDisches = db.Typeofdish.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofdishID.ToString(),
+                       Text = x.Type
+                   }
+                ),
+
+                TypeOfMeals = db.Typeofmeal.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofmealID.ToString(),
+                       Text = x.Mealstype
+                   }
+                )
+            };
+           
             ViewBag.UserID = new SelectList(db.Users, "Id", "Email");
-            return View();
+            return View(vm);
         }
 
         // POST: Recipes/Create

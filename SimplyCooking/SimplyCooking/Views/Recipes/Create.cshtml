@@ -1,4 +1,4 @@
-﻿@model SimplyCooking.Models.Recipe
+﻿@model SimplyCooking.Models.RecipesCreateViewModel
 
 @{
     ViewBag.Title = "Dodaj przepis";
@@ -23,42 +23,49 @@
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Nazwa przepisu</h4></div>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Recipe.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Recipe.Name, "", new { @class = "text-danger" })
             </div>
-        </div>
-
-        @*<div class="form-group">
-                <div class="control-label col-md-2"> <h4>Zdjęcie przepisu</h4></div>
-                <div class="col-md-10">
-
-                    <input type="file" name="ImageData" id="ImageData" onchange="fileCheck(this);" />
-                </div>
-            </div>*@
+        </div>        
 
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Sposób przygotowania</h4></div>
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.Description, new { @class = "ckeditor" })
-                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor" })
+                @Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Składniki</h4></div>
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.Component, new { @class = "ckeditor" })
-                @Html.ValidationMessageFor(model => model.Component, "", new { @class = "text-danger" })
+                @Html.TextAreaFor(model => model.Recipe.Component, new { @class = "ckeditor" })
+                @Html.ValidationMessageFor(model => model.Recipe.Component, "", new { @class = "text-danger" })
             </div>
         </div>
 
-        @*<div class="form-group">
-            <div class="control-label col-md-2"> <h4>Dodaj zdjęcie</h4></div>
+        <div class="form-group">
+            <div class="control-label col-md-2"> <h4>Pora posiłku</h4></div>
             <div class="col-md-10">
-                <form action="..." enctype="multipart/form-data" >
-                    <input  type="file" name="nazwa" />
-                </form>
-                </div>
-            </div>*@
+
+                @*<select class="selectpicker" multiple title="Wybierz jedno z poniższych...">
+                    <option value="Śniadanie">Śniadanie</option>
+                    <option value="Obiad">Obiad</option>
+                    <option value="Kolacja">Kolacja</option>
+                </select>*@
+
+                @Html.DropDownListFor(model => model.Recipe.TypeofdishesID, Model.TypeOfDisches, new { title= "Wybierz jedno z poniższych..." })
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2"> <h4>Rodzaj posiłku</h4></div>
+            <div class="col-md-10">               
+
+                @Html.DropDownListFor(model => model.Recipe.TypeofmealsID, Model.TypeOfMeals, new { title = "Wybierz jedno z poniższych..." })
+
+            </div>
+        </div>      
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -74,8 +81,13 @@
 </div>
 
 @section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
 
+@Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/bootstrap-select.min.js"></script>
+<script src="~/Scripts/bootstrap-select.js"></script>
 <script src="~/ckeditor/ckeditor.js"></script>
 <script src="~/ckeditor/adapters/jquery.js"></script>
+
+}
+
+
