@@ -15,9 +15,8 @@ namespace SimplyCooking.Models
         public int TypeofmealsID { get; set; }
 
         public virtual ApplicationUser User { get; set; }
-        public virtual Typeofdish Typeofdish { get; set; }
-        public virtual Typeofmeal Typeofmeal { get; set; }
-        public virtual List<Comment> Comment { get; set; }
+        public virtual Typeofdish Typeofdishes { get; set; }
+        public virtual Typeofmeal Typeofmeals { get; set; }
         public virtual List<Equipment> Equipment { get; set; }
         public virtual List<Component> Component { get; set; }
         public virtual List<Photo> Photos { get; set; }

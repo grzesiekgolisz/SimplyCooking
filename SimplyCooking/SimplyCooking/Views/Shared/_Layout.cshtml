@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title SimplyCooking</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/ckeditor");
@@ -26,15 +27,26 @@
                     @*<li>@Html.ActionLink("Home", "Index", "Home")</li>*@
                     <li>@Html.ActionLink("O nas", "About", "Home")</li>
                     <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
-                    <li>@using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
-                    {
-                        <p class="btn-default">
-                            <input id="SearchString" name="SearchString" placeholder="Podaj nazwę dania:" type="text" value="">
-                            <input class="btn-success" type="submit" value="szukaj" />
-                        </p>
-                    }</li>
+                    <li>
+                        @using (Html.BeginForm("Index", "Recipes", FormMethod.Get))
+    {
+                    @*<p class="btn-default" style="float:left; margin-left:80px; margin-top:10px;">*@
+                        <input id="SearchString" style="height:32.85px; margin-top:10px; margin-right:5px; float:left;" name="SearchString" placeholder="Podaj nazwę dania:" type="text" value="">
+                    @*</p>*@
+                        
+                    <input class="btn btn-primary" style="float:left; margin-top:10px; " type="submit" value="Szukaj" />
+                            if (Request.IsAuthenticated)
+                            {
+                    <p class="btn-dodaj" style=" float: right;  margin: 10px;">
+                        <a href='@Url.Action("Create", "Recipes")' class="btn btn-primary">Dodaj swój przepis</a>
+                    </p>
+                        }
+                    }
+                                    </li>
                    
                 </ul>
+
+
                 @Html.Partial("_LoginPartial")
             </div>
         </div>

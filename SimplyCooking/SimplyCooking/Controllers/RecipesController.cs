@@ -16,7 +16,7 @@ namespace SimplyCooking.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         //private readonly DbContext db = new DBContext();
 
-        public int UploadImageInDataBase(HttpPostedFileBase file, Photo photo)
+        public bool UploadImageInDataBase(HttpPostedFileBase file, Photo photo)
         {
             photo.Image = ConvertToBytes(file);
 
@@ -24,11 +24,11 @@ namespace SimplyCooking.Controllers
             int i = db.SaveChanges();
             if (i == 1)
             {
-                return 1;
+                return true;
             }
             else
             {
-                return 0;
+                return false;
             }
         }
 
@@ -56,18 +56,6 @@ namespace SimplyCooking.Controllers
 
         }
 
-        public ActionResult Search(string searchString)
-        {
-            var recipes = from m in db.Recipe
-                          select m;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                recipes = recipes.Where(s => s.Name.Contains(searchString));
-            }
-
-            return View(recipes);
-        }
 
         // GET: Recipes/Details/5
         public ActionResult Details(int? id)
@@ -94,8 +82,8 @@ namespace SimplyCooking.Controllers
             //int recipeId = Convert.ToInt32(Request.Files["RecipeId"]);
             model.RecipeId = recipeId;
 
-            int i = UploadImageInDataBase(file, model);
-            if (i == 1)
+            bool i = UploadImageInDataBase(file, model);
+            if (i == true)
             {
                 return RedirectToAction("Index");
             }
@@ -106,8 +94,29 @@ namespace SimplyCooking.Controllers
         // GET: Recipes/Create
         public ActionResult Create()
         {
+            var vm = new RecipesCreateViewModel
+            {
+                TypeOfDisches = db.Typeofdish.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofdishID.ToString(),
+                       Text = x.Type
+                   }
+                ),
+
+                TypeOfMeals = db.Typeofmeal.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofmealID.ToString(),
+                       Text = x.Mealstype
+                   }
+                )
+            };
+           
             ViewBag.UserID = new SelectList(db.Users, "Id", "Email");
-            return View();
+            return View(vm);
         }
 
         // POST: Recipes/Create
