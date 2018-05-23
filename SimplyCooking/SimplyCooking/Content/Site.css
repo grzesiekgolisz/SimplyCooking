@@ -45,6 +45,21 @@ textarea {
     margin-left:auto;
     margin-right:auto;
 }
+
+.container details 
+{
+float:left;
+
+}
+.divnafoto {
+    float: left;
+    width: 300px;
+    height: 300px;
+}.mojezdj {
+    width: 900px;
+    height: 900px;
+}
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +82,10 @@ textarea {
 .btn btn-primary{
 
     float:inherit;
+<<<<<<< HEAD
+=======
+
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 }
 
 .bg-my {
@@ -79,3 +98,9 @@ textarea {
     background-color: rgba(255,255,255,0.5);
     padding: 20px;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e

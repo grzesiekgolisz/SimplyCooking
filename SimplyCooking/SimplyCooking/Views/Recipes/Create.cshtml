@@ -7,6 +7,18 @@
 
  
 
+<<<<<<< HEAD
+=======
+
+@using (Html.BeginForm())
+  
+
+
+@using (Html.BeginForm())
+
+{
+    @Html.AntiForgeryToken()
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
         @using (Html.BeginForm())
 
@@ -27,7 +39,11 @@
                 @Html.EditorFor(model => model.Recipe.Name, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Recipe.Name, "", new { @class = "text-danger" })
             </div>
+<<<<<<< HEAD
         </div>
+=======
+        </div>        
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Sposób przygotowania</h4></div>
@@ -49,17 +65,27 @@
             <div class="col-md-10">
 
                 @*<select class="selectpicker" multiple title="Wybierz jedno z poniższych...">
+<<<<<<< HEAD
                         <option value="Śniadanie">Śniadanie</option>
                         <option value="Obiad">Obiad</option>
                         <option value="Kolacja">Kolacja</option>
                     </select>*@
                 @Html.DropDownListFor(model => model.Recipe.TypeofdishesID, Model.TypeOfDisches, new { title = "Wybierz jedno z poniższych..." })
+=======
+                    <option value="Śniadanie">Śniadanie</option>
+                    <option value="Obiad">Obiad</option>
+                    <option value="Kolacja">Kolacja</option>
+                </select>*@
+
+                @Html.DropDownListFor(model => model.Recipe.TypeofdishesID, Model.TypeOfDisches, new { title= "Wybierz jedno z poniższych..." })
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
             </div>
         </div>
 
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Rodzaj posiłku</h4></div>
+<<<<<<< HEAD
             <div class="col-md-10">
 
                 @Html.DropDownListFor(model => model.Recipe.TypeofmealsID, Model.TypeOfMeals, new { title = "Wybierz jedno z poniższych..." })
@@ -70,6 +96,14 @@
 
 
 
+=======
+            <div class="col-md-10">               
+
+                @Html.DropDownListFor(model => model.Recipe.TypeofmealsID, Model.TypeOfMeals, new { title = "Wybierz jedno z poniższych..." })
+
+            </div>
+        </div>      
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -83,6 +117,7 @@
     <div>
 
 
+<<<<<<< HEAD
     </div>
 
     @section Scripts {
@@ -98,3 +133,16 @@
     }
 
 
+=======
+@section Scripts {
+
+@Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/bootstrap-select.min.js"></script>
+<script src="~/Scripts/bootstrap-select.js"></script>
+<script src="~/ckeditor/ckeditor.js"></script>
+<script src="~/ckeditor/adapters/jquery.js"></script>
+
+}
+
+
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e

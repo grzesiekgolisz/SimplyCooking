@@ -15,6 +15,7 @@
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.RecipeID)
 
+<<<<<<< HEAD
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Nazwa Przepisu</h4></div>
             <div class="col-md-10">
@@ -22,6 +23,8 @@
                 @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
             </div>
         </div>
+=======
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
 
 
@@ -42,6 +45,7 @@
                 @Html.ValidationMessageFor(model => model.Component, "", new { @class = "text-danger" })
             </div>
         </div>
+<<<<<<< HEAD
         <div class="form-group">
             <div class="control-label col-md-2"> <h4>Pora posiłku</h4></div>
             <div class="col-md-10">
@@ -67,6 +71,10 @@
 
             </div>
         </div>
+=======
+
+        
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 
 
 
@@ -81,10 +89,15 @@
         </div>
     </div>
 
+<<<<<<< HEAD
 
     <button type="button" onclick="location.href='@Url.Action("Details", "Recipes", new { id = Model.RecipeID })'"> Szczegóły </button>
     <button type="button" onclick="location.href='@Url.Action("Delete", "Recipes", new { id = Model.RecipeID })'"> Usuń </button>
 
+=======
+<div>
+    <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
 </div>
     }
 

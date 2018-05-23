@@ -4,6 +4,7 @@
     ViewBag.Title = "Index";
 }
 
+<<<<<<< HEAD
 
 
 
@@ -42,3 +43,47 @@
 
 
 
+=======
+<h2>Lista przepisów</h2>
+
+<p>
+    <button type="button" onclick="location.href='@Url.Action("Create", "Recipes")'">Dodaj</button>
+
+
+
+</p>
+<div class="table-responsive" style="background-color:antiquewhite; color: black; ">
+    <table class="table table-hover">
+        <tr>
+            <th>
+                Nazwa
+            </th>
+            <th>
+                Opis
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+
+                    @Html.Raw(item.Description)
+                </td>
+
+                <td>
+                    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = item.RecipeID })'">Edytuj</button> |
+                    <button type="button" onclick="location.href='@Url.Action("Details", "Recipes", new { id = item.RecipeID })'">Szczegóły</button> |
+                    <button type="button" onclick="location.href='@Url.Action("Delete", "Recipes", new { id = item.RecipeID })'">Usuń</button>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+>>>>>>> f60a93a0c46347cad3d55438540f8edaf4bf208e
