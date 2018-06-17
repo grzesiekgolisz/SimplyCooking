@@ -30,7 +30,7 @@ namespace SimplyCooking.Views
             Product product = db.Product.Find(id);
             if (product == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(product);
         }
@@ -68,7 +68,7 @@ namespace SimplyCooking.Views
             Product product = db.Product.Find(id);
             if (product == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(product);
         }
@@ -99,7 +99,7 @@ namespace SimplyCooking.Views
             Product product = db.Product.Find(id);
             if (product == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(product);
         }

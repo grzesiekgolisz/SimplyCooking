@@ -1,0 +1,112 @@
+﻿@model IEnumerable<SimplyCooking.Models.Recipe>
+
+@{
+    ViewBag.Title = "ShowMyRecipes";
+}
+
+<h2>Moje przepisy</h2>
+
+@foreach (var item in Model)
+{
+    if (@item.Photos.FirstOrDefault() != null)
+    {
+        <div class="col-md-4" style="margin-bottom:20px;">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Recipes", new { id = item.RecipeID })">
+                    <img src="/Recipes/RetrieveImage/@item.Photos.First().PhotoId" alt="Lights" style="width:100%; height:150px" />
+                    <div class="caption">
+                        <center> <p>@Html.DisplayFor(modelItem => item.Name)</p></center>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="col-md-4" style="margin-bottom:20px;">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Recipes", new { id = item.RecipeID })">
+
+                    <img src="@Url.Content("https://akademiasmaku.pl/upload/recipes/2311/big/omlet-z-serem-i-szynka-2311.jpg")" alt="Lights" style="width:100%; height:150px">
+                    <div class="caption">
+                        <center> <p>@Html.DisplayFor(modelItem => item.Name)</p></center>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    }
+}
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Components)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeofdishesID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeofmealsID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentV2ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DifficultyLevel)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Components)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeofdishesID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeofmealsID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentV2ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DifficultyLevel)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RecipeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RecipeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RecipeID })
+        </td>
+    </tr>
+}
+
+</table>*@

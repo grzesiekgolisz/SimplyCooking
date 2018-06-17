@@ -19,7 +19,7 @@ namespace SimplyCooking.Models
         //}
       
         public virtual List<Recipe> Recipes { get; set; }
-        public virtual List<Comment> Comments { get; set; }
+        //public virtual List<Comment> Comments { get; set; }
 
     }
 
@@ -31,13 +31,14 @@ namespace SimplyCooking.Models
         }
 
         public DbSet<Recipe> Recipe { get; set; }
-        public DbSet<Comment> Comment { get; set; }
+        //public DbSet<Comment> Comment { get; set; }
         public DbSet<Component> Component { get; set; }
-        public DbSet<Equipment> Equipment { get; set; }
+        //public DbSet<Equipment> Equipment { get; set; }
+        public DbSet<EquipmentV2> Equipment { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<Typeofdish> Typeofdish { get; set; }
         public DbSet<Typeofmeal> Typeofmeal { get; set; }
-        public DbSet<Photo> Photo { get; set; }
+        public DbSet<Photo> Photo { get; set; }      
 
 
         public static ApplicationDbContext Create()

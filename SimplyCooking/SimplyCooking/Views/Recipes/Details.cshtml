@@ -5,244 +5,157 @@
 }
 
 <script src="~/Themes/ckeditor/ckeditor.js"></script>
+<script src="~/Scripts/stoper.js"></script>
+<script src="~/Scripts/lightbox-2.6.min.js"></script>
+<link href="~/Content/lightbox.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<div class="container" style="background-color: rgba(255,255,255,0.5); ">
+    <div style="float:left;">
 
-<<<<<<< HEAD
+        <h2>
+            @Html.DisplayFor(model => model.Recipe.Name)
+        </h2>
 
-<h2>@Html.DisplayFor(model => model.Recipe.Name)</h2>
-=======
-<h2>@Html.DisplayFor(model => model.Name)</h2>
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
+    </div>
+    <div style="float:right; margin-top:5px;">
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.Recipe.RecipeID })'">Edytuj</button>
+       
+            
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Dodaj zdjęcie
+                </button>
 
-<div>
-    <h4></h4>
-    <hr />
-    <dl class="dl-horizontal">
-<<<<<<< HEAD
-        <dt>
-            Opis
-        </dt>
+                @*<button type="button" class="btn btn-primary btn-lg">
+                    Dodaj do ulubionych
+                </button>*@
 
-        <dd>
-
-<<<<<<< HEAD
-            <div id="szer" style="height:1000px;">
-                @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
-            </div>
-            @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
-
-=======
-
-            @Html.TextAreaFor(model => model.Recipe.Description, new { @class = "ckeditor", @disabled = true })
-            @*@Html.ValidationMessageFor(model => model.Recipe.Description, "", new { @class = "text-danger" })*@
-           
->>>>>>> d676cb477be8a2ea2d3808fdf82e676d39339569
-=======
-
-
-        <dt>
-            Opis
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Description)
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-        </dd>
-
-        <dt>
-            Pora posiłku
-        </dt>
-
-        <dd>
-<<<<<<< HEAD
-            @if (Model.Recipe.TypeofdishesID == 1)
-=======
-            @if (Model.TypeofdishesID == 1)
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-            {
-
-
-                string wynik = "śniadanie";
-
-                @Html.Raw(wynik);
-            }
-
-
-<<<<<<< HEAD
-            @if (Model.Recipe.TypeofdishesID == 2)
-=======
-            @if (Model.TypeofdishesID == 2)
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-            {
-                string wynik = "Obiad";
-
-                @Html.Raw(wynik);
-            }
-
-<<<<<<< HEAD
-            @if (Model.Recipe.TypeofdishesID == 3)
-=======
-              @if (Model.TypeofdishesID == 3)
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-            {
-                string wynik = "Kolacja";
-
-                @Html.Raw(wynik);
-            }
-
-
-
-        </dd>
-
-        <dt>
-<<<<<<< HEAD
-            Kuchnia
-        </dt>
-
-        <dd>
-            @if (Model.Recipe.TypeofmealsID == 1)
-            {
-
-
-                string wynik = "Tajska";
-
-                @Html.Raw(wynik);
-            }
-
-=======
-           Kuchnia
-        </dt>
-
-        <dd>
-           
-
-            @if (Model.TypeofmealsID == 1)
-            {
-
-
-                string wynik = "tajska";
-
-        @Html.Raw(wynik);
-}
-
-
-            @if (Model.TypeofmealsID == 2)
-            {
-                string wynik = "włoska";
-
-        @Html.Raw(wynik);
-}
-
-            @if (Model.TypeofmealsID == 3)
-            {
-                string wynik = "Chińska";
-
-        @Html.Raw(wynik);
-}
-
-        </dd>
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-
-            @if (Model.Recipe.TypeofmealsID == 2)
-            {
-                string wynik = "Włoska";
-
-                @Html.Raw(wynik);
-            }
-
-            @if (Model.Recipe.TypeofmealsID == 3)
-            {
-                string wynik = "Chińska";
-
-                @Html.Raw(wynik);
-            }
-
-        </dd>
-        @foreach (var item in Model.Recipe.Photos)
-        {
-            <dt>
-                @item.Title
-            </dt>
-            <dt>
-                <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="" height="100" width="200" />
-            </dt>
-        }
-    </dl>
-</div>
-<p>
-<<<<<<< HEAD
-    <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
-    <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.Recipe.RecipeID })'">Edytuj</button>
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        Dodaj zdjęcie
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Dodaj zdjęcie do przepisu</h4>
-                </div>
-                @using (Html.BeginForm("UploadPhoto", "Recipes", FormMethod.Post, new { enctype = "multipart/form-data" }))
-                {
-                    @Html.Hidden("RecipeId", Model.Recipe.RecipeID)
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Photo.Title, new { htmlAttributes = new { placeholder = "Tytuł zdjęcia", @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Photo.Title, "", new { @class = "text-danger" })
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Dodaj zdjęcie do przepisu</h4>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Photo.Description, new { htmlAttributes = new { placeholder = "Opis", @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Photo.Description, "", new { @class = "text-danger" })
+                            @using (Html.BeginForm("UploadPhoto", "Recipes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            @Html.Hidden("RecipeId", Model.Recipe.RecipeID)
+                            <div class="modal-body">
+
+                                <div class="form-group">
+                                    <div class="col-md-10">
+                                    </div>
+                                    <input type="file" name="ImageData" id="ImageData" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                                    <input type="submit" class="btn btn-primary" value="Zapisz" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Photo.Contents, new { htmlAttributes = new { placeholder = "Kontent", @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Photo.Contents, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                            </div>
-                            <input type="file" name="ImageData" id="ImageData" />
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-                            <input type="submit" class="btn btn-primary" value="Zapisz" />
+                    }
                         </div>
                     </div>
-                }
-            </div>
+                </div>           
         </div>
+
     </div>
 
 
-=======
-    @*@Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |*@
-    <button type="button" onclick="location.href='@Url.Action("Edit", "Recipes", new { id = Model.RecipeID })'">Edytuj</button> |
-    <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Powrót</button>
-    @*@Html.ActionLink("Back to List", "Index")*@
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
-</p>
-@*<div class="container">
 
-<<<<<<< HEAD
-        <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 
-    </div>*@
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
-=======
-<div class="container">
 
-    <img src="https://www.zajadam.pl/wp-content/uploads/hamburger-przepis.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+@Scripts.Render("~/bundles/jqueryval")
 
+
+<div class="container" style="background-color: rgba(255,255,255,0.5);">
+    <div style="float:left;width:600px;  margin-bottom:auto; margin-top:auto;  height: auto; ">
+        
+        <b>Składniki: </b>
+        @{
+            string component;
+            component = Model.Recipe.Components;
+            @Html.Raw(component); }
+
+        <b>Opis:</b>
+        @{
+            string opis1;
+            opis1 = Model.Recipe.Description;
+            @Html.Raw(opis1); }
+
+        <div style="float:left;width:600px;  margin-bottom:auto; margin-top:auto;  margin-left:22px; height: auto; ">
+            <b>Poziom trudności:</b> @Html.DisplayFor(model => model.Recipe.DifficultyLevel)
+            <br />
+            <b> Czas przygotowania:</b> @Html.DisplayFor(model => model.Recipe.Time) minut
+            <br />
+            <b> Potrzebne narzędzia:</b> @Html.DisplayFor(model => model.Recipe.Equipment.Equipmentname) 
+        </div>
+                
+        <br />
+      
+        <center>
+            <h2><p><span id="seconds">00</span>:<span id="tens">00</span></p></h2>
+            <button type="button" class="btn btn-primary btn-lg" id="button-start">Start</button>
+            <button type="button" class="btn btn-primary btn-lg" id="button-stop">Stop</button>
+            <button type="button" class="btn btn-primary btn-lg" id="button-reset">Reset</button>
+        </center>
+        <br />
+    </div>
+
+    <div style="float:right; width:500px;">        
+        @foreach (var item in Model.Recipe.Photos)
+        {
+            <center>
+                <div class="srodek" style="margin-bottom:10px;">
+
+
+                    <dt>
+                       @*// @item.Title*@
+                    </dt>
+                    <dt>
+                        <a href="/Recipes/RetrieveImage/@item.PhotoId" data-lightbox="/Recipes/RetrieveImage/@item.PhotoId">
+                        <img src="/Recipes/RetrieveImage/@item.PhotoId" alt="" height="250" width="450" />
+                        </a>
+
+                       
+                    </dt>
+
+                </div>
+            </center>
+        }
+
+    </div>
+
+    
 </div>
->>>>>>> cb9ec130547ad3095782b1d29537766731f6cf74
+
+
+<div id="disqus_thread" style="background-color:lightgray; padding: 5px; "></div>
+<script>
+
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://simply-cooking-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<script id="dsq-count-scr" src="//simply-cooking-1.disqus.com/count.js" async></script>
+
+<center><a href="http://www.licz.pl" title="Darmowe Liczniki"><font color="#000000">
+<script src="http://www.licz.pl/counter.php?name=NAZWA-LICZNIKA&start=WARTOSC-STARTOWA"></script>
+       </font></a><a href="http://www.licz.pl"><img src="http://www.licz.pl/donotalterthecode.gif" width="5" height="5" border="0"></a>
+</center>
+

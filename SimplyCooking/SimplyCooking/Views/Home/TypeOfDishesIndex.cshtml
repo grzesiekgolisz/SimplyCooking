@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SimplyCooking.Models.Recipe>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@foreach (var item in Model)
+{
+    if (@item.Photos.FirstOrDefault() != null)
+    {
+        <div class="col-md-4" style="margin-bottom:20px;">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Recipes", new { id = item.RecipeID })">
+                    <img src="/Recipes/RetrieveImage/@item.Photos.First().PhotoId" alt="Lights" style="width:100%; height:150px" />
+                    <div class="caption">
+                        <center> <p>@Html.DisplayFor(modelItem => item.Name)</p></center>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="col-md-4" style="margin-bottom:20px;">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Recipes", new { id = item.RecipeID })">
+                    
+                    <img src="@Url.Content("https://akademiasmaku.pl/upload/recipes/2311/big/omlet-z-serem-i-szynka-2311.jpg")" alt="Lights" style="width:100%; height:150px">
+                    <div class="caption">
+                        <center> <p>@Html.DisplayFor(modelItem => item.Name)</p></center>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    }
+}
+
+
+

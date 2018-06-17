@@ -9,5 +9,6 @@ namespace SimplyCooking.Models
     {
         public Recipe Recipe { get; set; }
         public Photo Photo { get; set; }
+        public Equipment Equipment {get; set;}
     }
 }

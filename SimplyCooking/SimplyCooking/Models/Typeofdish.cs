@@ -9,7 +9,8 @@ namespace SimplyCooking.Models
     {
         public int TypeofdishID { get; set; }
         public string Type { get; set; }
-
+        public Photo Photo { get; set; }
+        public Recipe Recipe { get; set; }
         public virtual List<Recipe> Recipes { get; set; }
     }
 }

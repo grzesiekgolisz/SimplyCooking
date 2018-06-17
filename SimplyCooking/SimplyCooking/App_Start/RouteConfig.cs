@@ -16,14 +16,14 @@ namespace SimplyCooking
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional }
             );
        
-            routes.MapRoute(
-                name: "przepisy",
-                url:"Recipes/wyswietlanie/{id}",
-            defaults: new { controller = "Recipes", action = "Wyswiatlanie", id = UrlParameter.Optional }
-            );
+            //routes.MapRoute(
+            //    name: "przepisy",
+            //    url:"Recipes/wyswietlanie/{id}",
+            //defaults: new { controller = "Recipes", action = "Wyswiatlanie", id = UrlParameter.Optional }
+            //);
 
 
             routes.MapRoute(

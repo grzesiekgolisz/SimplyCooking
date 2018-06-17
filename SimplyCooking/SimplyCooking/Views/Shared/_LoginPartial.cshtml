@@ -3,20 +3,48 @@
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
-    @Html.AntiForgeryToken()
-
-    <ul class="nav navbar-nav navbar-right">
-        <li>
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+        @Html.AntiForgeryToken()
+        <li class="btn-group nav">
+            <button type="button" class="btn btn-primary" style="margin-top:10px">@User.Identity.Name</button>
+            <button type="button" class="btn navbar-btn dropdown-toggle" style="margin-top:10px" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="@Url.Action("Index", "Manage")">Mój profil</a></li>
+                <li><a href="@Url.Action("ShowMyRecipes", "Recipes")">Moje przepisy</a></li>
+                @*<li><a href="@Url.Action("Index", "Manage")">Moje ulubione przepisy</a></li>*@               
+                <li><a href="javascript:document.getElementById('logoutForm').submit()">Wyloguj się</a></li>
+            </ul>
         </li>
-        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-    </ul>
+      
     }
 }
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li>@Html.ActionLink("Zarejestruj się", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-        <li>@Html.ActionLink("Zaloguj się", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li>
+            <a href="@Url.Action("Register", "Account")">
+                <span class="glyphicon glyphicon-registration-mark"></span>
+                Zarejestruj się
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("Login", "Account")">
+                <span class="glyphicon glyphicon-log-in"></span>
+                Zaloguj się
+            </a>
+        </li>
     </ul>
-}
+}  
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
+
+
+

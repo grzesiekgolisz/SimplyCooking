@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using SimplyCooking.Models;
 using System.IO;
 
+
 namespace SimplyCooking.Controllers
 {
     public class RecipesController : Controller
@@ -16,20 +17,14 @@ namespace SimplyCooking.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         //private readonly DbContext db = new DBContext();
 
-        public int UploadImageInDataBase(HttpPostedFileBase file, Photo photo)
+        public bool UploadImageInDataBase(HttpPostedFileBase file, Photo photo)
         {
             photo.Image = ConvertToBytes(file);
 
             db.Photo.Add(photo);
             int i = db.SaveChanges();
-            if (i == 1)
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
+
+            return true;
         }
 
         public byte[] ConvertToBytes(HttpPostedFileBase image)
@@ -41,9 +36,9 @@ namespace SimplyCooking.Controllers
         }
 
         // GET: Recipes
-        public ActionResult Index(string searchString)
+        //[HandleError]
+        public ActionResult Index(string searchString, int? id)
         {
-            
             var recipes = from m in db.Recipe
                           select m;
 
@@ -51,22 +46,32 @@ namespace SimplyCooking.Controllers
             {
                 recipes = recipes.Where(s => s.Name.Contains(searchString));
             }
+            
+            if(recipes == null || recipes.Count() == 0)
+            {
+                throw new HttpException(404, "Not found");
+            }
+            
+            
 
             return View(recipes.ToList());
 
         }
 
-        public ActionResult Search(string searchString)
-        {
-            var recipes = from m in db.Recipe
-                          select m;
 
-            if (!String.IsNullOrEmpty(searchString))
+        public ActionResult ShowMyRecipes()
+        {
+            var currentUserName = HttpContext.User.Identity.Name;
+            var currentUser = db.Users.FirstOrDefault(x => x.UserName == currentUserName);
+
+            if(currentUser == null)
             {
-                recipes = recipes.Where(s => s.Name.Contains(searchString));
+                throw new HttpException(404, "Not found");
             }
 
-            return View(recipes);
+            var recipes = db.Recipe.Where(x => x.UserID == currentUser.Id);
+
+            return View(recipes.ToList());
         }
 
         // GET: Recipes/Details/5
@@ -82,7 +87,7 @@ namespace SimplyCooking.Controllers
             };
             if (recipeVM.Recipe == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(recipeVM);
         }
@@ -91,11 +96,11 @@ namespace SimplyCooking.Controllers
         public ActionResult UploadPhoto(Photo model, int recipeId)
         {
             HttpPostedFileBase file = Request.Files["ImageData"];
-            //int recipeId = Convert.ToInt32(Request.Files["RecipeId"]);
+        
             model.RecipeId = recipeId;
 
-            int i = UploadImageInDataBase(file, model);
-            if (i == 1)
+            bool i = UploadImageInDataBase(file, model);
+            if (i == true)
             {
                 return RedirectToAction("Index");
             }
@@ -106,8 +111,38 @@ namespace SimplyCooking.Controllers
         // GET: Recipes/Create
         public ActionResult Create()
         {
+            var vm = new RecipesCreateViewModel
+            {
+                TypeOfDisches = db.Typeofdish.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofdishID.ToString(),
+                       Text = x.Type
+                   }
+                ),
+
+                TypeOfMeals = db.Typeofmeal.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofmealID.ToString(),
+                       Text = x.Mealstype
+                   }
+                ),
+
+                Equipment = db.Equipment.Select
+                (x =>
+                    new SelectListItem
+                    {
+                        Value = x.EquipmentV2ID.ToString(),
+                        Text = x.Equipmentname
+                    }
+                )
+            };
+           
             ViewBag.UserID = new SelectList(db.Users, "Id", "Email");
-            return View();
+            return View(vm);
         }
 
         // POST: Recipes/Create
@@ -115,11 +150,13 @@ namespace SimplyCooking.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "RecipeID,UserID,Name,Description,TypeofdishesID,TypeofmealsID")] Recipe recipe, Photo photo)
+        public ActionResult Create([Bind(Include = "RecipeID,UserID,Name,Description,Components,TypeofdishesID,TypeofmealsID,Time,DifficultyLevel,EquipmentV2ID")] Recipe recipe, Photo photo)
         {
            
             if (ModelState.IsValid)
             {
+                var user = db.Users.First(x => x.UserName == HttpContext.User.Identity.Name);
+                recipe.UserID = user.Id;
                 db.Recipe.Add(recipe);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -130,19 +167,53 @@ namespace SimplyCooking.Controllers
         }
 
         // GET: Recipes/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Recipe recipe = db.Recipe.Find(id);
+
             if (recipe == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
+
+            var userId = HttpContext.User.Identity.Name;
+
+            if(userId != recipe.User.UserName)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            var vm = new RecipesEditViewModel
+            {
+
+                TypeOfDisches = db.Typeofdish.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofdishID.ToString(),
+                       Text = x.Type
+                   }
+                ),
+
+                TypeOfMeals = db.Typeofmeal.Select
+                (x =>
+                   new SelectListItem
+                   {
+                       Value = x.TypeofmealID.ToString(),
+                       Text = x.Mealstype
+                   }
+                ),
+                Recipe = recipe
+            };
+
             ViewBag.UserID = new SelectList(db.Users, "Id", "Email", recipe.UserID);
-            return View(recipe);
+            return View(vm);
         }
 
         // POST: Recipes/Edit/5
@@ -150,14 +221,16 @@ namespace SimplyCooking.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "RecipeID,UserID,Name,Description,TypeofdishesID,TypeofmealsID")] Recipe recipe)
+        public ActionResult Edit([Bind(Include = "RecipeID,UserID,Name,Description,Components,TypeofdishesID,TypeofmealsID, EquipmentV2ID", Prefix = "Recipe")] Recipe recipe)
         {
+            var userId = HttpContext.User.Identity;
             if (ModelState.IsValid)
             {
                 db.Entry(recipe).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
             ViewBag.UserID = new SelectList(db.Users, "Id", "Email", recipe.UserID);
             return View(recipe);
         }
@@ -172,7 +245,7 @@ namespace SimplyCooking.Controllers
             Recipe recipe = db.Recipe.Find(id);
             if (recipe == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(recipe);
         }
@@ -210,6 +283,7 @@ namespace SimplyCooking.Controllers
 
         protected override void Dispose(bool disposing)
         {
+
             if (disposing)
             {
                 db.Dispose();

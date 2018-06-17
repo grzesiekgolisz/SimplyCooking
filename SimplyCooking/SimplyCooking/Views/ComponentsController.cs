@@ -31,7 +31,7 @@ namespace SimplyCooking.Views
             Component component = db.Component.Find(id);
             if (component == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(component);
         }
@@ -71,7 +71,7 @@ namespace SimplyCooking.Views
             Component component = db.Component.Find(id);
             if (component == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             ViewBag.RecipeID = new SelectList(db.Recipe, "RecipeID", "UserID", component.RecipeID);
             return View(component);
@@ -104,7 +104,7 @@ namespace SimplyCooking.Views
             Component component = db.Component.Find(id);
             if (component == null)
             {
-                return HttpNotFound();
+                throw new HttpException(404, "Not found");
             }
             return View(component);
         }
